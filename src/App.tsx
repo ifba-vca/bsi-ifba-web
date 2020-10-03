@@ -4,12 +4,12 @@ import { ThemeProvider, createMuiTheme } from '@material-ui/core';
 
 import Routes from './routes';
 
-function App() {
+const App = () => {
   const theme = createMuiTheme({
     spacing: 4,
     palette: {
       primary: {
-        main: '#21de41',
+        main: '#0A5517',
       },
       secondary: {
         main: '#3756e1',
@@ -29,6 +29,6 @@ function App() {
       <Routes />
     </ThemeProvider>
   );
-}
+};
 
 export default App;
