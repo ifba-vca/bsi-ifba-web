@@ -1,6 +1,9 @@
 import React from 'react';
 
-import { makeStyles, Container, Typography } from '@material-ui/core';
+import { makeStyles, Box } from '@material-ui/core';
+import Header from '../Header';
+import CustomDrawer from '../CustomDrawer';
+import Dashboard from '../Dashboard';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -11,14 +14,15 @@ const useStyles = makeStyles(theme => ({
 
 const Home: React.FC = () => {
   const classes = useStyles();
+  const [openMenu, setOpenMenu] = React.useState(true);
 
   return (
     <div className={classes.root}>
-      <Container>
-        <Typography variant="h4" color="textSecondary">
-          Home
-        </Typography>
-      </Container>
+      <Header openMenu={openMenu} setOpenMenu={setOpenMenu} />
+      <Box display="flex">
+        <CustomDrawer openMenu={openMenu} />
+        <Dashboard />
+      </Box>
     </div>
   );
 };
