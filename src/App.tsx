@@ -19,7 +19,7 @@ const App = () => {
       },
       background: {
         default: '#f4f6f8',
-        paper: '#f4f6f8',
+        paper: '#fff',
       },
     },
   });
