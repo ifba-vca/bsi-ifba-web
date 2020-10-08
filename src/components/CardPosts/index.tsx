@@ -8,10 +8,13 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
+import ShareIcon from '@material-ui/icons/Share';
+
 const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     backgroundColor: theme.palette.background.paper,
+    width: '70vw',
   },
   details: {
     display: 'flex',
@@ -26,14 +29,25 @@ const useStyles = makeStyles(theme => ({
 }));
 
 interface Posts {
-  posts: {
+  post: {
     id: number;
     title: string;
     description: string;
+    category: {
+      id: number;
+      name: string;
+    };
+    tags: {
+      id: number;
+      name: string;
+    };
+    author: string;
+    created_at: string;
+    updated_at: string;
   };
 }
 
-const CardPosts: React.FC<Posts> = props => {
+const CardPosts: React.FC<Posts> = ({ post }: Posts) => {
   const classes = useStyles();
 
   return (
@@ -50,21 +64,17 @@ const CardPosts: React.FC<Posts> = props => {
         <div className={classes.details}>
           <CardContent className={classes.content}>
             <Typography gutterBottom variant="h5" component="h2">
-              Lizard
+              {post.title}
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              {post.description}
             </Typography>
           </CardContent>
         </div>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+          <ShareIcon />
         </Button>
       </CardActions>
     </Card>

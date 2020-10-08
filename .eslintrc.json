@@ -38,7 +38,9 @@
     ],
     "prettier/prettier": "error",
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"]
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": ["warn"]
   },
   "settings": {
     "import/resolver": {
