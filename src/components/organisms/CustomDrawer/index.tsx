@@ -8,9 +8,6 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
-import ViewWeekIcon from '@material-ui/icons/ViewWeek';
 import { Box } from '@material-ui/core';
 import {PageListInterface} from '../../../interfaces/pages';
 
@@ -67,9 +64,12 @@ const CustomDrawer: React.FC<DrawerInterface> = props => {
         props.pages.map((item,index)=>(<>
           <Divider />
           <List>
-            {item.map((text, index) => (
-              <ListItem button key={text.title}>
-                <ListItemText primary={text.title} />
+            {item.map((item, index) => (
+              <ListItem button key={item.title}>
+                  <ListItemIcon>
+                    {item.icon && item.icon}
+                  </ListItemIcon>
+                <ListItemText primary={item.title} />
               </ListItem>
             ))}
           </List>

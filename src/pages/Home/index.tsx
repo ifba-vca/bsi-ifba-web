@@ -5,6 +5,7 @@ import Header from '../../components/organisms/Header';
 import CustomDrawer from '../../components/organisms/CustomDrawer';
 import Dashboard from '../../components/organisms/Dashboard';
 import {PageInterface,PageListInterface} from '../../interfaces/pages';
+import ViewWeekIcon from '@material-ui/icons/ViewWeek';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -17,7 +18,7 @@ const Home: React.FC = () => {
   const classes = useStyles();
   const [openMenu, setOpenMenu] = React.useState(true);
   const pages01: PageInterface[] = [
-    {title:'Início',navigation:'inicio'},
+    {title:'Início',navigation:'inicio',icon:<ViewWeekIcon/>},
     {title:'Apresentação',navigation:'inicio'},
     {title:'Notícias',navigation:'inicio'},
     {title:'Matriz Curricular',navigation:'inicio'},
