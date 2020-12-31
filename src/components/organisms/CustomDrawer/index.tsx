@@ -12,6 +12,7 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import ViewWeekIcon from '@material-ui/icons/ViewWeek';
 import { Box } from '@material-ui/core';
+import {PageListInterface} from '../../../interfaces/pages';
 
 const drawerWidth = 240;
 
@@ -33,15 +34,6 @@ const useStyles = makeStyles((theme: Theme) =>
     },
   }),
 );
-
-interface PageInterface {
-  title: string;
-  navigation: string;
-}
-
-type PagesInterface = PageInterface[];
-
-type PageListInterface = PagesInterface[];
 
 interface DrawerInterface {
   openMenu: boolean;

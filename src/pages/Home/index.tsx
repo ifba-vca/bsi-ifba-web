@@ -4,6 +4,7 @@ import { makeStyles, Box } from '@material-ui/core';
 import Header from '../../components/organisms/Header';
 import CustomDrawer from '../../components/organisms/CustomDrawer';
 import Dashboard from '../../components/organisms/Dashboard';
+import {PageInterface,PageListInterface} from '../../interfaces/pages';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -11,15 +12,6 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.default,
   },
 }));
-
-interface PageInterface {
-  title: string;
-  navigation: string;
-}
-
-type PagesInterface = PageInterface[];
-
-type PageListInterface = PagesInterface[];
 
 const Home: React.FC = () => {
   const classes = useStyles();
