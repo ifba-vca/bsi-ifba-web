@@ -10,6 +10,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
+import ViewWeekIcon from '@material-ui/icons/ViewWeek';
 import { Box } from '@material-ui/core';
 
 const drawerWidth = 240;
@@ -33,8 +34,18 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
+interface PageInterface {
+  title: string;
+  navigation: string;
+}
+
+type PagesInterface = PageInterface[];
+
+type PageListInterface = PagesInterface[];
+
 interface DrawerInterface {
   openMenu: boolean;
+  pages: PageListInterface;
 }
 
 const CustomDrawer: React.FC<DrawerInterface> = props => {
@@ -60,28 +71,18 @@ const CustomDrawer: React.FC<DrawerInterface> = props => {
           </Typography>
         </Box>
       </Toolbar>
-      <Divider />
-      <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
+      {
+        props.pages.map((item,index)=>(<>
+          <Divider />
+          <List>
+            {item.map((text, index) => (
+              <ListItem button key={text.title}>
+                <ListItemText primary={text.title} />
+              </ListItem>
+            ))}
+          </List>
+        </>))
+      }
     </Drawer>
   );
 };
