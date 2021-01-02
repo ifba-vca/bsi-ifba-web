@@ -37,7 +37,7 @@ interface DrawerInterface {
   pages: PageListInterface;
 }
 
-const CustomDrawer: React.FC<DrawerInterface> = props => {
+const Index: React.FC<DrawerInterface> = props => {
   const classes = useStyles();
 
   return (
@@ -79,4 +79,4 @@ const CustomDrawer: React.FC<DrawerInterface> = props => {
   );
 };
 
-export default CustomDrawer;
+export default Index;

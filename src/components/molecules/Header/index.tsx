@@ -77,7 +77,7 @@ interface DrawerInterface {
   setOpenMenu: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const Header: React.FC<DrawerInterface> = props => {
+const Index: React.FC<DrawerInterface> = props => {
   const classes = useStyles();
 
   return (
@@ -115,4 +115,4 @@ const Header: React.FC<DrawerInterface> = props => {
   );
 };
 
-export default Header;
+export default Index;

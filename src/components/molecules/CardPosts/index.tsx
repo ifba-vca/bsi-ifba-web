@@ -47,7 +47,7 @@ interface Posts {
   };
 }
 
-const CardPosts: React.FC<Posts> = ({ post }: Posts) => {
+const Index: React.FC<Posts> = ({ post }: Posts) => {
   const classes = useStyles();
 
   return (
@@ -81,4 +81,4 @@ const CardPosts: React.FC<Posts> = ({ post }: Posts) => {
   );
 };
 
-export default CardPosts;
+export default Index;

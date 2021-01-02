@@ -7,7 +7,7 @@ type GreetingProps = {
   children: React.ReactNode;
 }
 
-const Dashboard: React.FC<GreetingProps> = props => {
+const Index: React.FC<GreetingProps> = props => {
   return (
     <Box p={8}>
       <Toolbar />
@@ -19,4 +19,4 @@ const Dashboard: React.FC<GreetingProps> = props => {
   );
 };
 
-export default Dashboard;
+export default Index;
