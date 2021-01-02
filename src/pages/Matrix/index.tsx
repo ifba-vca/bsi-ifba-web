@@ -5,8 +5,8 @@ import Dashboard from '../../components/organisms/Dashboard';
 const Index: React.FC = () => {
 
   return (
-    <Dashboard title="calendar" >
-        <p>calendar</p>
+    <Dashboard title="Matriz Curricular" >
+        <p>Matriz</p>
     </Dashboard>
   );
 };
