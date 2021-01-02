@@ -22,10 +22,9 @@ const Index: React.FC<props> = props => {
   const classes = useStyles();
   const [openMenu, setOpenMenu] = React.useState(true);
   const pages01: PageInterface[] = [
-    {title:'Início',navigation:'inicio'},
-    {title:'Apresentação',navigation:'apresentacao'},
-    {title:'Notícias',navigation:'noticias'},
-    {title:'Matriz Curricular',navigation:'matriz'},
+    {title:'Início',navigation:''},
+    {title:'Matriz Curricular',navigation:'matriz_curricular'},
+    {title:'Calendário Acadêmico',navigation:'calendario_academico'}
   ];
   
   const pages: PageListInterface = [pages01];

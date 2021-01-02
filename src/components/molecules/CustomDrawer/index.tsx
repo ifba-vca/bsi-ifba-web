@@ -1,5 +1,6 @@
 import React from 'react';
 import { createStyles, Theme, makeStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 import Drawer from '@material-ui/core/Drawer';
 import Toolbar from '@material-ui/core/Toolbar';
 import List from '@material-ui/core/List';
@@ -65,12 +66,14 @@ const Index: React.FC<DrawerInterface> = props => {
           <Divider />
           <List>
             {item.map((item, index) => (
-              <ListItem button key={item.title}>
-                  <ListItemIcon>
-                    {item.icon && item.icon}
-                  </ListItemIcon>
-                <ListItemText primary={item.title} />
-              </ListItem>
+              <Link to={item.navigation}>
+                <ListItem button key={item.title}>
+                    <ListItemIcon>
+                      {item.icon && item.icon}
+                    </ListItemIcon>
+                  <ListItemText primary={item.title} />
+                </ListItem>
+              </Link>
             ))}
           </List>
         </>))
