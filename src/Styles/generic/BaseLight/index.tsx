@@ -5,7 +5,7 @@ const Base = createGlobalStyle`
     height: 100%;
   }
   body {
-    background-color: var(--si-gray);
+    background-color: var(--si-light-02);
     color:  var(--si-dark);
   }
 `;
