@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import {_ubuh1} from '../../../Styles/generic/Typography';
+import {_ubuh2} from '../../../Styles/generic/Typography';
 
 export const Container = styled.div`
     width:100%;
-    height: 80px;
+    height: 60px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -13,5 +13,5 @@ export const Logo = styled.img`
     height: 30px;
 `;
 export const Title = styled.h1`
-    ${_ubuh1}
+    ${_ubuh2}
 `;

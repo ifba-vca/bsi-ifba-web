@@ -16,10 +16,21 @@ const weight = {
 const _ubu = css`
   font-family: ${font.ubuntu}, monospace;
   word-break: break-word;
-  color: var(--si-dark);
 `
 
 export const _ubuh1 = css`
+  ${_ubu};
+  font-size: 25px;
+  font-weight: ${weight.bold};
+  @media ${mobile.tablet}{
+    font-size: 30px;
+  }
+  @media ${mobile.desktop}{
+      font-size: 50px;
+    }
+`
+
+export const _ubuh2 = css`
   ${_ubu};
   font-size: 18px;
   font-weight: ${weight.bold};
@@ -28,6 +39,17 @@ export const _ubuh1 = css`
   }
   @media ${mobile.desktop}{
       font-size: 20px;
+    }
+`
+export const _ubuh3 = css`
+  ${_ubu};
+  font-size: 16px;
+  font-weight: ${weight.bold};
+  @media ${mobile.tablet}{
+    font-size: 16px;
+  }
+  @media ${mobile.desktop}{
+      font-size: 16px;
     }
 `
 export const _ubutext = css`
