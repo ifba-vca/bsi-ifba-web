@@ -63,6 +63,9 @@ const Index: React.FC<Props> = (props) => {
                   logoSize={70} 
                   textSize={12}
                   circleColor="--si-red-01"
+                  squareColor="--si-green-01"
+                  primaryColor="--si-green-01"
+                  secondaryColor="--si-green-01"
                 />
               </a>
             </Section>

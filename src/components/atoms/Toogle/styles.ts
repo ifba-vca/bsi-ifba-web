@@ -12,18 +12,14 @@ export const Input = styled.input`
     width: 0;
     height: 0;
 
-    &:checked + span {
-        background-color: #2196F3;
-    }
-
     &:focus + span {
-        box-shadow: 0 0 1px #2196F3;
+        box-shadow: 0 0 1px var(--si-background-01);
     }
     
     &:checked + span:before {
-        -webkit-transform: translateX(33px);
-        -ms-transform: translateX(33px);
-        transform: translateX(33px);
+        -webkit-transform: translateX(36px);
+        -ms-transform: translateX(36px);
+        transform: translateX(36px);
     }
 `;
 export const Slider = styled.span`
@@ -33,7 +29,7 @@ export const Slider = styled.span`
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: var(--si-background-01);
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 34px;
@@ -44,8 +40,8 @@ export const Slider = styled.span`
         height: 20px;
         width: 20px;
         left: 2.5px;
-        bottom: 2.5px;
-        background-color: white;
+        bottom: 2.2px;
+        background-color: var(--si-background-02);
         -webkit-transition: .4s;
         transition: .4s;
         border-radius: 50%;
