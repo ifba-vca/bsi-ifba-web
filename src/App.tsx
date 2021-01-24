@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Styles dark/>
-      <Home title="Home"/>
+      <Home/>
     </>
   );
 }

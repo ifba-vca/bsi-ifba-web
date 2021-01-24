@@ -3,17 +3,19 @@ import React from 'react';
 import Header from '../../components/molecules/Header';
 import Content from '../../components/molecules/Content';
 import Footer from '../../components/molecules/Footer';
+import BannerHome from '../../components/organisms/banners/BannerHome';
 
 export interface Props {
-    title: String;
+    title?: String;
 }
 
 const Index: React.FC<Props> = (props) => {
       return (
         <>
           <Header/>
-          <h1>{props.title}</h1>
-          <Content/>
+          <Content>
+            <BannerHome/>
+          </Content>
           <Footer/>
         </>
       );

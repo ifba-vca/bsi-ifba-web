@@ -26,22 +26,22 @@ const Index: React.FC<Props> = props => {
         <>
             <Container width={size.width} height={size.height}>
                 <Line>
-                    <Circle width={size.square} margin={size.margin} color={props.cColor}></Circle>
-                    <Square width={size.square} margin={size.margin} color={props.sColor}></Square>
-                    <Square width={size.square} margin={size.margin} color={props.sColor}></Square>
+                    <Circle className="if-circle" width={size.square} margin={size.margin} color={props.cColor}></Circle>
+                    <Square className="if-square" width={size.square} margin={size.margin} color={props.sColor}></Square>
+                    <Square className="if-square" width={size.square} margin={size.margin} color={props.sColor}></Square>
                 </Line>
                 <Line>
-                    <Square width={size.square} margin={size.margin} color={props.sColor}></Square>
-                    <Square width={size.square} margin={size.margin} color={props.sColor}></Square>
+                    <Square className="if-square" width={size.square} margin={size.margin} color={props.sColor}></Square>
+                    <Square className="if-square" width={size.square} margin={size.margin} color={props.sColor}></Square>
                 </Line>
                 <Line>
-                    <Square width={size.square} margin={size.margin} color={props.sColor}></Square>
-                    <Square width={size.square} margin={size.margin} color={props.sColor}></Square>
-                    <Square width={size.square} margin={size.margin} color={props.sColor}></Square>
+                    <Square className="if-square" width={size.square} margin={size.margin} color={props.sColor}></Square>
+                    <Square className="if-square" width={size.square} margin={size.margin} color={props.sColor}></Square>
+                    <Square className="if-square" width={size.square} margin={size.margin} color={props.sColor}></Square>
                 </Line>
                 <Line>
-                    <Square width={size.square} margin={size.margin} color={props.sColor}></Square>
-                    <Square width={size.square} margin={size.margin} color={props.sColor}></Square>
+                    <Square className="if-square" width={size.square} margin={size.margin} color={props.sColor}></Square>
+                    <Square className="if-square" width={size.square} margin={size.margin} color={props.sColor}></Square>
                 </Line>
             </Container>
         </>
