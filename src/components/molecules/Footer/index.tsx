@@ -1,11 +1,16 @@
 
 import React from 'react';
+import {Container} from './styles';
+import IfbaLogo from '../../atoms/IfbaLogo';
 
 
 const Index: React.FC = () => {
       return (
         <>
-                <h1>Footer</h1>
+          <Container>
+            <IfbaLogo />
+            <h1>Footer</h1>
+          </Container>
         </>
       );
     }

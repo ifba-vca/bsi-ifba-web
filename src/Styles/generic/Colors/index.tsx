@@ -2,7 +2,12 @@ import { createGlobalStyle } from 'styled-components';
 
 const Colors = createGlobalStyle`
   :root {
-    
+      --si-red-01: #641414;
+
+      --si-green-01: #91C896;
+      --si-green-02: #355538;
+      --si-green-03: #273C26;
+
       --si-blue: #0075FF;
 
       --si-dark-02: #1F232C;

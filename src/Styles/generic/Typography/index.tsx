@@ -27,7 +27,7 @@ export const _ubuh1 = css`
     font-size: 20px;
   }
   @media ${mobile.desktop}{
-      font-size: 25px;
+      font-size: 20px;
     }
 `
 export const _ubutext = css`

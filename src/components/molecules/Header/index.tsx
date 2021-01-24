@@ -1,14 +1,14 @@
 
 import React from 'react';
-import {Container,Logo,Title} from './styles';
-import BsiLogo from '../../../util/logo.png';
+import {Container} from './styles';
+import LogoOne from '../../atoms/LogoOne';
+
 
 const Index: React.FC = () => {
       return (
         <>
           <Container>
-            <Logo src={BsiLogo}/>
-            <Title>IFBA BSI</Title>
+            <LogoOne/>
           </Container>
         </>
       );
