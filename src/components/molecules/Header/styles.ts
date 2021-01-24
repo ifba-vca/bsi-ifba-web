@@ -5,7 +5,7 @@ export const Container = styled.div`
     width:100%;
     height: 60px;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
     background-color: var(--si-background-02)
 `;

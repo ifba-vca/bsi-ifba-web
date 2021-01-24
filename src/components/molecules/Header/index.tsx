@@ -2,6 +2,7 @@
 import React from 'react';
 import {Container} from './styles';
 import LogoOne from '../../atoms/LogoOne';
+import Toogle from '../../atoms/Toogle';
 
 
 const Index: React.FC = () => {
@@ -9,6 +10,7 @@ const Index: React.FC = () => {
         <>
           <Container>
             <LogoOne/>
+            <Toogle/>
           </Container>
         </>
       );
