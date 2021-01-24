@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { mobile } from "../../../../Styles/generic/Breakpoints";
 
 export const Container = styled.div`
-    min-height: calc(100vh - 8px);
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -63,6 +63,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html *{
+	transition: 0.5s;
+}
 `;
 
 export default Reset;

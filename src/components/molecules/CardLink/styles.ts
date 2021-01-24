@@ -4,7 +4,7 @@ import {_ubuh3} from '../../../Styles/generic/Typography';
 export const Container = styled.a`
     margin: 20px;
     width:150px;
-    min-height: 200px;
+    min-height: 250px;
     display:flex;
     flex-direction:column;
     align-items:center;
