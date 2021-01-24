@@ -16,11 +16,11 @@ export const Link = styled.a`
     &:hover {
         .if-circle,.if-square {
             background-color: var(--si-green-03);
-            transition: 0.5s;
+            transition: .1s;
         }
         p {
             color: var(--si-green-03);
-            transition: 0.5s;
+            transition: .1s;
         }
     }
 `;

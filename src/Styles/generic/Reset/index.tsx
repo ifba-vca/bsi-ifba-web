@@ -64,7 +64,7 @@ table {
 	border-spacing: 0;
 }
 html *{
-	transition: 0.5s;
+	transition: .1s;
 }
 `;
 

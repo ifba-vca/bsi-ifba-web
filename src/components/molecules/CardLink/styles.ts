@@ -10,7 +10,7 @@ export const Container = styled.a`
     align-items:center;
     background-color: var(--si-background-02);
     border-radius: 10px;
-    transition: 0.5s;
+    transition: .1s;
 
     :hover{
         box-shadow: 0px 0px 10px  var(--si-text);

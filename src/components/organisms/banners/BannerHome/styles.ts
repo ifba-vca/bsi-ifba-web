@@ -19,7 +19,7 @@ export const TextContainer = styled.div`
     width: 100%;
     margin-top: 50px;
     align-self: flex-start;
-    transition:0.5s;
+    transition:.1s;
     @media ${mobile.tablet} {
         margin-top: 0px;
         margin-left: 50px;
@@ -29,7 +29,7 @@ export const TextContainer = styled.div`
 
 export const Title = styled.p`
     font-size:30px;
-    transition:0.5s;
+    transition:.1s;
     text-align: center;
     @media ${mobile.tablet} {
         text-align: left;
