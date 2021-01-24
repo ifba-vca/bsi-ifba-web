@@ -5,7 +5,7 @@ import Styles from './Styles';
 function App() {
   return (
     <>
-      <Styles/>
+      <Styles dark/>
       <Home title="Home"/>
     </>
   );

@@ -1,5 +1,8 @@
 
 import React from 'react';
+import Header from '../../components/molecules/Header';
+import Content from '../../components/molecules/Content';
+import Footer from '../../components/molecules/Footer';
 
 export interface Props {
     title: String;
@@ -8,7 +11,10 @@ export interface Props {
 const Index: React.FC<Props> = (props) => {
       return (
         <>
-                <h1>{props.title}</h1>
+          <Header/>
+          <h1>{props.title}</h1>
+          <Content/>
+          <Footer/>
         </>
       );
     }

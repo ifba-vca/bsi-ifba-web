@@ -21,13 +21,13 @@ const _ubu = css`
 
 export const _ubuh1 = css`
   ${_ubu};
-  font-size: 22px;
+  font-size: 18px;
   font-weight: ${weight.bold};
   @media ${mobile.tablet}{
-    font-size: 30px;
+    font-size: 20px;
   }
   @media ${mobile.desktop}{
-      font-size: 40px;
+      font-size: 25px;
     }
 `
 export const _ubutext = css`

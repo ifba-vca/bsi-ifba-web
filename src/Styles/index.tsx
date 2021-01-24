@@ -3,15 +3,18 @@ import React from 'react';
 import Colors from './generic/Colors';
 import Reset from './generic/Reset';
 import BaseLight from './generic/BaseLight';
+import BaseDark from './generic/BaseDark';
 
+export interface Props {
+  dark?: Boolean | null;
+}
 
-
-const Index: React.FC = () => {
+const Index: React.FC<Props> = props => {
       return (
         <>
          <Reset/>
          <Colors/>
-         <BaseLight/>
+         {props.dark ? <BaseDark/> : <BaseLight/>}
         </>
       );
     }
