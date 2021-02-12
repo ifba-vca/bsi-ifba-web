@@ -25,3 +25,5 @@ yarn-error.log*
 #jetbrains
 .idea
 .gradle
+.idea/workspace.xml
+.idea/vcs.xml
