@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {Container,AtavarContainer,Avatar,Title} from './styles';
-import Logo from '../../../util/logo.png';
+import Logo from '../../../util/png/logo.png';
 
 interface Props {
     title?: string | null;

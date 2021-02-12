@@ -6,7 +6,7 @@ import BannerHome from '../../components/organisms/banners/BannerHome';
 import Section from '../../components/atoms/Section';
 import IfbaLogo from '../../components/atoms/IfbaLogo';
 import ListCardLink from '../../components/molecules/ListCardLink';
-import GSE from '../../util/gse.png';
+import GSE from '../../util/png/gse.png';
 
 
 export interface Props {

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {Container,Logo,Title} from './styles';
-import BsiLogo from '../../../util/logo.png';
+import BsiLogo from '../../../util/png/logo.png';
 
 const Index: React.FC = () => {
       return (
