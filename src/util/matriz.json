@@ -1,0 +1,354 @@
+[
+    {
+        "semestre": "1",
+        "codigo": "EEP101",
+        "nome": " Introdução a Programação",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Fabrizio Leandro Fonseca Fiscina"
+    },
+    {
+        "semestre": "1",
+        "codigo": "GRL102",
+        "nome": " Leitura e Produção Textual",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Marta de Souza França"
+    },
+    {
+        "semestre": "1",
+        "codigo": "CMP102",
+        "nome": " Metodologia da Pesquisa Científica",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Ivanete Freire dos Santos"
+    },
+    {
+        "semestre": "1",
+        "codigo": "MAT103",
+        "nome": " Cálculo I",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jailson de Araujo Rodrigues"
+    },
+    {
+        "semestre": "1",
+        "codigo": "MAT102",
+        "nome": " Lógica Para Computação",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jailson de Araujo Rodrigues e Ângela Lima da Silva"
+    },
+    {
+        "semestre": "1",
+        "codigo": "GRL103",
+        "nome": " Filosofia e Ética",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Aletuza Gomes Leite"
+    },
+    {
+        "semestre": "2",
+        "codigo": "ESP201",
+        "nome": " Linguagem de Programação I",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Fernanda Castelo Branco de Santana"
+    },
+    {
+        "semestre": "2",
+        "codigo": "ESP205",
+        "nome": " Fundamentos em Sistema de Informação",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jamile Barreto Xavier"
+    },
+    {
+        "semestre": "2",
+        "codigo": "ESP2017",
+        "nome": " Organização e Arquitetura de Computadores",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Murilo Santos e Fernando Bulhões"
+    },
+    {
+        "semestre": "2",
+        "codigo": "MAT209",
+        "nome": " Cálculo II",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jailson de Araujo Rodrigues"
+    },
+    {
+        "semestre": "2",
+        "codigo": "ADM204",
+        "nome": " Teoria Geral da Administração",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Thiago Chagas Silva Santos"
+    },
+    {
+        "semestre": "2",
+        "codigo": "MAT208",
+        "nome": " Matemática Discreta",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jailson de Araujo Rodrigues e Ângela Lima da Silva"
+    },
+    {
+        "semestre": "3",
+        "codigo": "ESP305",
+        "nome": " Teoria Geral de Sistemas",
+        "ch_total": "30",
+        "ch_semanal": "2",
+        "docente": "Fernando Bulhões"
+    },
+    {
+        "semestre": "3",
+        "codigo": "ADM301",
+        "nome": " Organização, Sistemas e Métodos",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Thiago Chagas Silva Santos"
+    },
+    {
+        "semestre": "3",
+        "codigo": "ESP303",
+        "nome": " Linguagem de Programação II",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Fernanda Castelo Branco de Santana"
+    },
+    {
+        "semestre": "3",
+        "codigo": "ESP307",
+        "nome": " Análise e Modelagem de Sistemas",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jose Dihego da Silva Oliveira"
+    },
+    {
+        "semestre": "3",
+        "codigo": "ESP304",
+        "nome": " Sistemas Operacionais",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Murilo Santos"
+    },
+    {
+        "semestre": "3",
+        "codigo": "GRL301",
+        "nome": " Inglês Instrumental I",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Marcelo dos Santos"
+    },
+    {
+        "semestre": "3",
+        "codigo": "MAT306",
+        "nome": " Álgebra Linear",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jailson de Araujo Rodrigues"
+    },
+    {
+        "semestre": "4",
+        "codigo": "CMP409",
+        "nome": " Seminários Temáticos",
+        "ch_total": "30",
+        "ch_semanal": "2",
+        "docente": "Walace Rocha dos Santos"
+    },
+    {
+        "semestre": "4",
+        "codigo": "ESP411",
+        "nome": " Banco de Dados I",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Luiz Gomes Forte Neto"
+    },
+    {
+        "semestre": "4",
+        "codigo": "ESP412",
+        "nome": " Estrutura de Dados",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jose Dihego da Silva Oliveira"
+    },
+    {
+        "semestre": "4",
+        "codigo": "ESP413",
+        "nome": " Interface Homem",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jamile Barreto Xavier"
+    },
+    {
+        "semestre": "4",
+        "codigo": "ESP414",
+        "nome": " Redes de Computadores I",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Fernando Bulhões"
+    },
+    {
+        "semestre": "4",
+        "codigo": "GRL404",
+        "nome": " Inglês Instrumental II",
+        "ch_total": "30",
+        "ch_semanal": "2",
+        "docente": "Adelmo Xavier"
+    },
+    {
+        "semestre": "4",
+        "codigo": "MAT410",
+        "nome": " Probabilidade e Estatística",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jailson de Araujo Rodrigues"
+    },
+    {
+        "semestre": "5",
+        "codigo": "ESP515",
+        "nome": " Banco de Dados II",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Antônio Cordeiro"
+    },
+    {
+        "semestre": "5",
+        "codigo": "ESP516",
+        "nome": " Processo de Desenvolvimento de Software",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Raimundo Carvalho Rabelo Filho"
+    },
+    {
+        "semestre": "5",
+        "codigo": "ESP517",
+        "nome": " Progamação Web",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Raimundo Carvalho Rabelo Filho"
+    },
+    {
+        "semestre": "5",
+        "codigo": "ESP518",
+        "nome": " Rede de Computadores II",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Luiz Gomes Forte Neto"
+    },
+    {
+        "semestre": "5",
+        "codigo": "GRL519",
+        "nome": " Sociologia do Trabalho",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Waneska Cunha dos Anjos"
+    },
+    {
+        "semestre": "5",
+        "codigo": "01TCPA",
+        "nome": " TÓPICOS AV. I ",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Aletuza Gomes Leite e Daniele Santos de Souza"
+    },
+    {
+        "semestre": "6",
+        "codigo": "ADM621",
+        "nome": " Gestão de Projetos",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Thiago Chagas Silva Santos"
+    },
+    {
+        "semestre": "6",
+        "codigo": "CMP603",
+        "nome": " TCC 1",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Fernando Bulhões"
+    },
+    {
+        "semestre": "6",
+        "codigo": "ESP623",
+        "nome": " Engenharia de Software",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Fernanda Castelo Branco de Santana"
+    },
+    {
+        "semestre": "6",
+        "codigo": "ESP625",
+        "nome": " Sistemas distribuídos",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Antônio Cordeiro"
+    },
+    {
+        "semestre": "6",
+        "codigo": "ESP626",
+        "nome": " Sistemas Embarcados",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Não definido"
+    },
+    {
+        "semestre": "6",
+        "codigo": "O2TEC1",
+        "nome": " OPT II ",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Antônio Cordeiro"
+    },
+    {
+        "semestre": "7",
+        "codigo": "CMP702",
+        "nome": " Qualidade de Software",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Antônio Cordeiro"
+    },
+    {
+        "semestre": "7",
+        "codigo": "CMP701",
+        "nome": " TCC II",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Vários docentes"
+    },
+    {
+        "semestre": "7",
+        "codigo": "CMP70x",
+        "nome": " Meio Ambiente",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Não definido"
+    },
+    {
+        "semestre": "7",
+        "codigo": "ESP704",
+        "nome": " Desenvolvimento Mobile",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Jose Dihego da Silva Oliveira"
+    },
+    {
+        "semestre": "7",
+        "codigo": "ESP701",
+        "nome": " Projetos e Gerência de Redes",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Fernando Bulhões"
+    },
+    {
+        "semestre": "7",
+        "codigo": "O2CMP1",
+        "nome": " OPT III: Inovação e Difusão do",
+        "ch_total": "60",
+        "ch_semanal": "4",
+        "docente": "Fábio Araujo Barreto e Fernanda Castelo Branco de Santana"
+    }
+]
