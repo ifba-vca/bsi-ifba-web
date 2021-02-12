@@ -1,33 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Home from './pages/Home';
+import Styles from './Styles';
+import Header from '../src/components/molecules/Header';
 
-import { ThemeProvider, createMuiTheme } from '@material-ui/core';
-
-import Routes from './routes';
-
-const App = () => {
-  const theme = createMuiTheme({
-    spacing: 4,
-    palette: {
-      primary: {
-        main: '#0A5517',
-      },
-      secondary: {
-        main: '#3756e1',
-      },
-      error: {
-        main: '#d52020',
-      },
-      background: {
-        default: '#f4f6f8',
-        paper: '#f4f6f8',
-      },
-    },
-  });
-
+function App() {
+  const [dark,setdark] = useState<boolean>(true);
+  const handleTheme = () =>{ setdark(!dark); }
   return (
-    <ThemeProvider theme={theme}>
-      <Routes />
-    </ThemeProvider>
+    <>
+      <Styles dark={dark}/>
+      <Header onChange={handleTheme}/>
+      <Home/>
+    </>
   );
 };
 
