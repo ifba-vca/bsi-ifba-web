@@ -12,7 +12,7 @@ const Index: React.FC<Discipline> = (props) => {
           <Name>{props.name}</Name>
         </Header>
         <Footer>
-          <Type>{props.id}</Type>
+          <Type className={props.subtitle?props.subtitle:'CCO'}>{props.id}</Type>
           <Ch>{props.h_total}</Ch>
         </Footer>
       </Container>

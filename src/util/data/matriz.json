@@ -28,6 +28,7 @@
         },
         {
           "id": "MAT103",
+          "subtitle": "MAT",
           "name": " Cálculo I",
           "h_total": "60",
           "h_weekly": "4",

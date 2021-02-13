@@ -40,7 +40,13 @@ export const Type = styled.h1`
     width: 80px;
   text-align: center;
   line-height: 1.5;
-  background-color: var(--si-magenta-01);
+  &.CCO{background-color: var(--si-magenta-01);}
+  &.MAT{background-color: var(--si-yellow-01);}
+  &.COM{background-color: var(--si-mate-01);}
+  &.HUM{background-color: var(--si-orange-01);}
+  &.OPT{background-color: var(--si-pink-01);}
+  &.SUP{background-color: var(--si-blue-01);}
+  &.TEC{background-color: var(--si-blue-02);}
 `;
 export const Ch = styled.h1`
     ${_ubutextlittle};

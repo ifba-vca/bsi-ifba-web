@@ -9,6 +9,7 @@ export const Container = styled.div`
   border-radius: 10px;
   flex-direction: column;
   overflow: hidden;
+  flex-wrap: wrap;
 `;
 
 export const TitleContainer = styled.div`

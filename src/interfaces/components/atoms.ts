@@ -1,5 +1,6 @@
 export interface Discipline {
   id?: String | null;
+  subtitle?: any | null;
   name?: String | null;
   h_total?: String | null;
   h_weekly?: String | null;

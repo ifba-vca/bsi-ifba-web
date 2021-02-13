@@ -6,6 +6,7 @@ import BannerHome from '../../components/organisms/banners/BannerHome';
 import Section from '../../components/atoms/Section';
 import IfbaLogo from '../../components/atoms/IfbaLogo';
 import MatrixCourse from '../../components/molecules/MatrixCourse';
+import MatrixSubtitle from '../../components/atoms/MatrixSubtitle';
 import ListCardLink from '../../components/molecules/ListCardLink';
 import GSE from '../../util/png/gse.png';
 import curricularMatrix from '../../util/data/matriz.json';
@@ -82,6 +83,7 @@ const Index: React.FC<Props> = (props) => {
             </Section>
             <Section title="Matriz">
               <MatrixCourse semesters={matrix.semesters} />
+              <MatrixSubtitle/>
             </Section>
           </Content>
           <Footer/>

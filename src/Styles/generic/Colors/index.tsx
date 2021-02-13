@@ -18,6 +18,12 @@ const Colors = createGlobalStyle`
       --si-light-01: #FFFFFF;
 
       --si-magenta-01: #FA484F;
+      --si-yellow-01: #D4A80C;
+      --si-mate-01: #39B200;
+      --si-orange-01: #FF8A00;
+      --si-pink-01: #FA48BD;
+      --si-blue-01: #2F5A67;
+      --si-blue-02: #1B9FC9;
   }
 `;
 
