@@ -62,3 +62,14 @@ export const _ubutext = css`
       font-size: 18px;
     }
 `
+
+export const _ubutextlittle = css`
+  ${_ubu};
+  font-size: 12px;
+  @media ${mobile.tablet}{
+    font-size: 12px;
+  }
+  @media ${mobile.desktop}{
+      font-size: 12px;
+    }
+`

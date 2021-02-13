@@ -5,8 +5,11 @@ import Footer from '../../components/molecules/Footer';
 import BannerHome from '../../components/organisms/banners/BannerHome';
 import Section from '../../components/atoms/Section';
 import IfbaLogo from '../../components/atoms/IfbaLogo';
+import MatrixCourse from '../../components/molecules/MatrixCourse';
 import ListCardLink from '../../components/molecules/ListCardLink';
 import GSE from '../../util/png/gse.png';
+import curricularMatrix from '../../util/data/matriz.json';
+import {Course} from '../../interfaces/components/atoms'
 
 
 export interface Props {
@@ -17,6 +20,8 @@ interface Card {
   icon?: string | null;
   href?: string | null;
 }
+
+const matrix:Course = curricularMatrix;
 
 const projetos:Array<Card> = [
   {
@@ -59,8 +64,8 @@ const Index: React.FC<Props> = (props) => {
                 <br/>
                 <br/>
                 <br/>
-                <IfbaLogo 
-                  logoSize={70} 
+                <IfbaLogo
+                  logoSize={70}
                   textSize={12}
                   circleColor="--si-red-01"
                   squareColor="--si-green-01"
@@ -74,6 +79,9 @@ const Index: React.FC<Props> = (props) => {
             </Section>
             <Section title="Eventos">
               <ListCardLink cards={eventos}/>
+            </Section>
+            <Section title="Matriz">
+              <MatrixCourse semesters={matrix.semesters} />
             </Section>
           </Content>
           <Footer/>
