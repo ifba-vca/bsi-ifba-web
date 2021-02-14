@@ -7,10 +7,11 @@ export const Container = styled.div`
   overflow: hidden;
   border-radius: 10px;
   width: 90vw;
-  height: 400px;
+  height: 90vh;
   left: 5vw;
-  top: 10vh;
+  top: 5vh;
   transition: 1s;
+  z-index: 10;
   &.show{
     display: flex !important;
   }
