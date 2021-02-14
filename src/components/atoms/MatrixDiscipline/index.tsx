@@ -3,9 +3,15 @@ import {Container,Header,Footer,Name,Type,Ch} from './styles';
 import {Discipline} from '../../../interfaces/components/atoms';
 import MatrixDetail from '../MatrixDetail'
 
-const Index: React.FC<Discipline> = (props) => {
+interface Props {
+  discipline: Discipline;
+}
+
+const Index: React.FC<Props> = (props) => {
   const [modal, setmodal] = useState("");
   const modalRef = useRef(null)
+
+  const {discipline} = props
 
   const showModal = () => {
     setmodal("show")
@@ -38,14 +44,14 @@ const Index: React.FC<Discipline> = (props) => {
     <>
       <Container onClick={showModal}>
         <Header>
-          <Name>{props.name}</Name>
+          <Name>{discipline.name}</Name>
         </Header>
         <Footer>
-          <Type color={props.type}>{props.id}</Type>
-          <Ch>{props.h_total}</Ch>
+          <Type color={discipline.type}>{discipline.id}</Type>
+          <Ch>{discipline.h_total}</Ch>
         </Footer>
       </Container>
-      <MatrixDetail className={modal} name={props.name} close={reallycloseModal} modalRef={modalRef}/>
+      <MatrixDetail className={modal} discipline={discipline} close={reallycloseModal} modalRef={modalRef}/>
     </>
   );
 }
