@@ -81,7 +81,7 @@ const Index: React.FC<Props> = (props) => {
             <Section title="Eventos">
               <ListCardLink cards={eventos}/>
             </Section>
-            <Section title="Matriz">
+            <Section title="Matriz Curricular">
               <MatrixCourse semesters={matrix.semesters} />
               <MatrixSubtitle/>
             </Section>
