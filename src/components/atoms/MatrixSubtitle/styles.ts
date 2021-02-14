@@ -16,10 +16,11 @@ export const List = styled.div`
 export const Component = styled.div`
     display: flex;
     align-items: center;
-  width: 100px;
+  width: 80px;
   height: 40px;
-  padding: 10px;
+  padding: 2px;
   margin: 2px;
+  border-radius: 5px;
 
   p {
     ${_ubutextlittle};

@@ -12,6 +12,7 @@ const Index: React.FC<Semester> = props => {
         {props.disciplines ? props.disciplines.map(item => (
           <MatrixDiscipline
             id = {item.id}
+            type = {item.type}
             name = {item.name}
             h_total = {item.h_total}
           />

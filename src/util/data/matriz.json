@@ -7,6 +7,7 @@
       "disciplines": [
         {
           "id": "EEP101",
+          "type": "CCO",
           "name": " Introdução a Programação",
           "h_total": "60",
           "h_weekly": "4",
@@ -14,6 +15,7 @@
         },
         {
           "id": "GRL102",
+          "type": "COM",
           "name": " Leitura e Produção Textual",
           "h_total": "60",
           "h_weekly": "4",
@@ -21,6 +23,7 @@
         },
         {
           "id": "CMP102",
+          "type": "COM",
           "name": " Metodologia da Pesquisa Científica",
           "h_total": "60",
           "h_weekly": "4",
@@ -28,7 +31,7 @@
         },
         {
           "id": "MAT103",
-          "subtitle": "MAT",
+          "type": "MAT",
           "name": " Cálculo I",
           "h_total": "60",
           "h_weekly": "4",
@@ -36,6 +39,7 @@
         },
         {
           "id": "MAT102",
+          "type": "CCO",
           "name": " Lógica Para Computação",
           "h_total": "60",
           "h_weekly": "4",
@@ -43,6 +47,7 @@
         },
         {
           "id": "GRL103",
+          "type": "HUM",
           "name": " Filosofia e Ética",
           "h_total": "60",
           "h_weekly": "4",
@@ -56,6 +61,7 @@
       "disciplines": [
         {
           "id": "ESP201",
+          "type": "CCO",
           "name": " Linguagem de Programação I",
           "h_total": "60",
           "h_weekly": "4",
@@ -63,6 +69,7 @@
         },
         {
           "id": "ESP205",
+          "type": "CCO",
           "name": " Fundamentos em Sistema de Informação",
           "h_total": "60",
           "h_weekly": "4",
@@ -70,6 +77,7 @@
         },
         {
           "id": "ESP2017",
+          "type": "CCO",
           "name": " Organização e Arquitetura de Computadores",
           "h_total": "60",
           "h_weekly": "4",
@@ -77,6 +85,7 @@
         },
         {
           "id": "MAT209",
+          "type": "MAT",
           "name": " Cálculo II",
           "h_total": "60",
           "h_weekly": "4",
@@ -84,6 +93,7 @@
         },
         {
           "id": "ADM204",
+          "type": "COM",
           "name": " Teoria Geral da Administração",
           "h_total": "60",
           "h_weekly": "4",
@@ -91,6 +101,7 @@
         },
         {
           "id": "MAT208",
+          "type": "MAT",
           "name": " Matemática Discreta",
           "h_total": "60",
           "h_weekly": "4",
@@ -104,6 +115,7 @@
       "disciplines": [
         {
           "id": "ESP305",
+          "type": "CCO",
           "name": " Teoria Geral de Sistemas",
           "h_total": "30",
           "h_weekly": "2",
@@ -111,6 +123,7 @@
         },
         {
           "id": "ADM301",
+          "type": "COM",
           "name": " Organização, Sistemas e Métodos",
           "h_total": "60",
           "h_weekly": "4",
@@ -118,6 +131,7 @@
         },
         {
           "id": "ESP303",
+          "type": "CCO",
           "name": " Linguagem de Programação II",
           "h_total": "60",
           "h_weekly": "4",
@@ -125,6 +139,7 @@
         },
         {
           "id": "ESP307",
+          "type": "TEC",
           "name": " Análise e Modelagem de Sistemas",
           "h_total": "60",
           "h_weekly": "4",
@@ -132,6 +147,7 @@
         },
         {
           "id": "ESP304",
+          "type": "TEC",
           "name": " Sistemas Operacionais",
           "h_total": "60",
           "h_weekly": "4",
@@ -139,6 +155,7 @@
         },
         {
           "id": "GRL301",
+          "type": "COM",
           "name": " Inglês Instrumental I",
           "h_total": "60",
           "h_weekly": "4",
@@ -146,6 +163,7 @@
         },
         {
           "id": "MAT306",
+          "type": "MAT",
           "name": " Álgebra Linear",
           "h_total": "60",
           "h_weekly": "4",
@@ -159,6 +177,7 @@
       "disciplines": [
         {
           "id": "CMP409",
+          "type": "COM",
           "name": " Seminários Temáticos",
           "h_total": "30",
           "h_weekly": "2",
@@ -166,6 +185,7 @@
         },
         {
           "id": "ESP411",
+          "type": "TEC",
           "name": " Banco de Dados I",
           "h_total": "60",
           "h_weekly": "4",
@@ -173,6 +193,7 @@
         },
         {
           "id": "ESP412",
+          "type": "CCO",
           "name": " Estrutura de Dados",
           "h_total": "60",
           "h_weekly": "4",
@@ -180,6 +201,7 @@
         },
         {
           "id": "ESP413",
+          "type": "CCO",
           "name": " Interface Homem",
           "h_total": "60",
           "h_weekly": "4",
@@ -187,6 +209,7 @@
         },
         {
           "id": "ESP414",
+          "type": "CCO",
           "name": " Redes de Computadores I",
           "h_total": "60",
           "h_weekly": "4",
@@ -194,6 +217,7 @@
         },
         {
           "id": "GRL404",
+          "type": "COM",
           "name": " Inglês Instrumental II",
           "h_total": "30",
           "h_weekly": "2",
@@ -201,6 +225,7 @@
         },
         {
           "id": "MAT410",
+          "type": "MAT",
           "name": " Probabilidade e Estatística",
           "h_total": "60",
           "h_weekly": "4",
@@ -214,6 +239,7 @@
       "disciplines": [
         {
           "id": "ESP515",
+          "type": "TEC",
           "name": " Banco de Dados II",
           "h_total": "60",
           "h_weekly": "4",
@@ -221,6 +247,7 @@
         },
         {
           "id": "ESP516",
+          "type": "TEC",
           "name": " Processo de Desenvolvimento de Software",
           "h_total": "60",
           "h_weekly": "4",
@@ -228,6 +255,7 @@
         },
         {
           "id": "ESP517",
+          "type": "TEC",
           "name": " Progamação Web",
           "h_total": "60",
           "h_weekly": "4",
@@ -235,6 +263,7 @@
         },
         {
           "id": "ESP518",
+          "type": "TEC",
           "name": " Rede de Computadores II",
           "h_total": "60",
           "h_weekly": "4",
@@ -242,6 +271,7 @@
         },
         {
           "id": "GRL519",
+          "type": "HUM",
           "name": " Sociologia do Trabalho",
           "h_total": "60",
           "h_weekly": "4",
@@ -249,6 +279,7 @@
         },
         {
           "id": "01TCPA",
+          "type": "OPT",
           "name": " TÓPICOS AV. I ",
           "h_total": "60",
           "h_weekly": "4",
@@ -262,6 +293,7 @@
       "disciplines": [
         {
           "id": "ADM621",
+          "type": "TEC",
           "name": " Gestão de Projetos",
           "h_total": "60",
           "h_weekly": "4",
@@ -269,6 +301,7 @@
         },
         {
           "id": "CMP603",
+          "type": "SUP",
           "name": " TCC 1",
           "h_total": "60",
           "h_weekly": "4",
@@ -276,6 +309,7 @@
         },
         {
           "id": "ESP623",
+          "type": "TEC",
           "name": " Engenharia de Software",
           "h_total": "60",
           "h_weekly": "4",
@@ -283,6 +317,7 @@
         },
         {
           "id": "ESP625",
+          "type": "TEC",
           "name": " Sistemas distribuídos",
           "h_total": "60",
           "h_weekly": "4",
@@ -290,6 +325,7 @@
         },
         {
           "id": "ESP626",
+          "type": "TEC",
           "name": " Sistemas Embarcados",
           "h_total": "60",
           "h_weekly": "4",
@@ -297,6 +333,7 @@
         },
         {
           "id": "O2TEC1",
+          "type": "OPT",
           "name": " OPT II ",
           "h_total": "60",
           "h_weekly": "4",
@@ -310,6 +347,7 @@
       "disciplines": [
         {
           "id": "CMP702",
+          "type": "TEC",
           "name": " Qualidade de Software",
           "h_total": "60",
           "h_weekly": "4",
@@ -317,6 +355,7 @@
         },
         {
           "id": "CMP701",
+          "type": "SUP",
           "name": " TCC II",
           "h_total": "60",
           "h_weekly": "4",
@@ -324,6 +363,7 @@
         },
         {
           "id": "CMP70x",
+          "type": "HUM",
           "name": " Meio Ambiente",
           "h_total": "60",
           "h_weekly": "4",
@@ -331,6 +371,7 @@
         },
         {
           "id": "ESP704",
+          "type": "TEC",
           "name": " Desenvolvimento Mobile",
           "h_total": "60",
           "h_weekly": "4",
@@ -338,6 +379,7 @@
         },
         {
           "id": "ESP701",
+          "type": "TEC",
           "name": " Projetos e Gerência de Redes",
           "h_total": "60",
           "h_weekly": "4",
@@ -345,6 +387,7 @@
         },
         {
           "id": "O2CMP1",
+          "type": "OPT",
           "name": " OPT III: Inovação e Difusão do",
           "h_total": "60",
           "h_weekly": "4",
