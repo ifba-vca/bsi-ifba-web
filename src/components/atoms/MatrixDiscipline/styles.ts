@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import {_ubutextlittle} from '../../../Styles/generic/Typography';
 
-export const Container = styled.div`
+export const Container = styled.a`
+  cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container,List,Title,Component} from './styles';
-import BsiLogo from '../../../util/png/logo.png';
 
 const Index: React.FC = () => {
   return (
