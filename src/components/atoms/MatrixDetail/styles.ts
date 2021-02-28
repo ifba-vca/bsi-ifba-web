@@ -50,6 +50,10 @@ export const Title = styled.p`
   ${_ubuh2};
   margin: 25px 0 0 10px;
 `;
+export const DisciplineSubtitle = styled.p`
+  margin-left: 10px;
+  margin-bottom: 5px;
+`;
 export const Subtitle = styled.p`
   margin-left: 10px;
   margin-bottom: 60px;

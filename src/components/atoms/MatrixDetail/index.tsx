@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,Content,Cover,Title,Subtitle,Text,Box,Close} from './styles'
+import {Container,Content,Cover,Title,DisciplineSubtitle,Subtitle,Text,Box,Close} from './styles'
 import {Discipline} from '../../../interfaces/components/atoms'
 import CCO from '../../../util/jpg/CCO.jpg'
 import COM from '../../../util/jpg/COM.jpg'
@@ -55,6 +55,7 @@ const Index: React.FC<Props> = props => {
           <Close id="close" onClick={()=>close()}>X</Close>
           <Cover src={imgCover()}/>
           <Title>{discipline?.name}</Title>
+          {discipline?.description && (<DisciplineSubtitle>Disciplina: {discipline?.description}</DisciplineSubtitle>)}
           <Subtitle>Prof. {discipline?.teacher}</Subtitle>
           <Box>
             <Text>Carga Horária Semanal: {discipline?.h_weekly}h</Text>
