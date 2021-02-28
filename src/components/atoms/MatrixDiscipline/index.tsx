@@ -47,7 +47,7 @@ const Index: React.FC<Props> = (props) => {
           <Name>{discipline.name}</Name>
         </Header>
         <Footer>
-          <Type color={discipline.type}>{discipline.id}</Type>
+          <Type color={discipline.type}>{discipline.type}</Type>
           <Ch>{discipline.h_total}</Ch>
         </Footer>
       </Container>

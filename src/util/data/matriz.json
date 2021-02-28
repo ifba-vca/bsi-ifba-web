@@ -1,57 +1,81 @@
 {
-  "name":"Sistemas de Informação",
-  "semesters":[
+  "name": "Sistemas de Informação",
+  "semesters": [
     {
       "id": "1",
       "name": "1º Semestre",
       "disciplines": [
         {
-          "id": "EEP101",
           "type": "CCO",
-          "name": " Introdução a Programação",
-          "h_total": "60",
+          "name": "Algoritmos e Programação",
+          "teacher": "Liojes de Oliveira Carneiro",
+          "description": "",
+          "id": "ALG-PROG",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Fabrizio Leandro Fonseca Fiscina"
+          "h_total": "36",
+          "day": "Quarta",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "GRL102",
           "type": "COM",
-          "name": " Leitura e Produção Textual",
-          "h_total": "60",
+          "name": "Leitura e produção de gêneros Academicos",
+          "teacher": "Polliana Freire dos Anjos Oliveira",
+          "description": "",
+          "id": "LPGA",
+          "coordination": "CDNC",
           "h_weekly": "4",
-          "teacher": "Marta de Souza França"
+          "h_total": "50",
+          "day": "Segunda",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "CMP102",
-          "type": "COM",
-          "name": " Metodologia da Pesquisa Científica",
-          "h_total": "60",
+          "type": "CCO",
+          "name": "Fundamentos de Sistema de Informação",
+          "teacher": "Viviyane Coelho Caires",
+          "description": "",
+          "id": "FUND-SI",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Ivanete Freire dos Santos"
+          "h_total": "40",
+          "day": "Sábado",
+          "hour": "20:20-21:10"
         },
         {
-          "id": "MAT103",
           "type": "MAT",
-          "name": " Cálculo I",
-          "h_total": "60",
+          "name": "Matemática Discreta 1",
+          "teacher": "Allan de Sousa Soares",
+          "description": "",
+          "id": "MAT DISC 1",
+          "coordination": "CDNC",
           "h_weekly": "4",
-          "teacher": "Jailson de Araujo Rodrigues"
+          "h_total": "50",
+          "day": "Quinta",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "MAT102",
           "type": "CCO",
-          "name": " Lógica Para Computação",
-          "h_total": "60",
+          "name": "Introdução à Ciência da Computação",
+          "teacher": "Viviyane Coelho Caires",
+          "description": "",
+          "id": "INTRO-CC",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Jailson de Araujo Rodrigues e Ângela Lima da Silva"
+          "h_total": "40",
+          "day": "Terça",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "GRL103",
-          "type": "HUM",
-          "name": " Filosofia e Ética",
-          "h_total": "60",
+          "type": "COM",
+          "name": "Inglês Instrumental",
+          "teacher": "Polliana Freire dos Anjos Oliveira",
+          "description": "",
+          "id": "INGL INST",
+          "coordination": "CDNC",
           "h_weekly": "4",
-          "teacher": "Aletuza Gomes Leite"
+          "h_total": "50",
+          "day": "Sexta",
+          "hour": "19:20-20:10"
         }
       ]
     },
@@ -60,52 +84,76 @@
       "name": "2º Semestre",
       "disciplines": [
         {
-          "id": "ESP201",
           "type": "CCO",
-          "name": " Linguagem de Programação I",
-          "h_total": "60",
+          "name": "Linguagem de Programação 1",
+          "teacher": "Crescêncio Rodrigues Lima Neto",
+          "description": "",
+          "id": "LINGPRO1",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Fernanda Castelo Branco de Santana"
+          "h_total": "40",
+          "day": "Segunda",
+          "hour": "19:20-20:03"
         },
         {
-          "id": "ESP205",
           "type": "CCO",
-          "name": " Fundamentos em Sistema de Informação",
-          "h_total": "60",
+          "name": "Arquitetura e Organização de Computadores",
+          "teacher": "Leonardo Barreto Campos",
+          "description": "",
+          "id": "ARQORG",
+          "coordination": "CSI",
           "h_weekly": "4",
-          "teacher": "Jamile Barreto Xavier"
+          "h_total": "40",
+          "day": "Terça",
+          "hour": "19:20-20:03"
         },
         {
-          "id": "ESP2017",
-          "type": "CCO",
-          "name": " Organização e Arquitetura de Computadores",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Murilo Santos e Fernando Bulhões"
-        },
-        {
-          "id": "MAT209",
-          "type": "MAT",
-          "name": " Cálculo II",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Jailson de Araujo Rodrigues"
-        },
-        {
-          "id": "ADM204",
           "type": "COM",
-          "name": " Teoria Geral da Administração",
-          "h_total": "60",
+          "name": "Computador, Ética e Sociedade",
+          "teacher": "Eliana Barretto de Menezes Lopes",
+          "description": "",
+          "id": "COMP.ET.SOC.",
+          "coordination": "CDNC",
           "h_weekly": "4",
-          "teacher": "Thiago Chagas Silva Santos"
+          "h_total": "50",
+          "day": "Sexta",
+          "hour": "19:20-20:03"
         },
         {
-          "id": "MAT208",
           "type": "MAT",
-          "name": " Matemática Discreta",
-          "h_total": "60",
+          "name": "Matemática Discreta 2",
+          "teacher": "Allan de Sousa Soares",
+          "description": "",
+          "id": "MAT.DISC.2",
+          "coordination": "CDNC",
           "h_weekly": "4",
-          "teacher": "Jailson de Araujo Rodrigues e Ângela Lima da Silva"
+          "h_total": "50",
+          "day": "Quinta",
+          "hour": "20:20-21:10"
+        },
+        {
+          "type": "MAT",
+          "name": "Calculo Diferencial Aplicado a Computação",
+          "teacher": "Thiago Leonardo Bastos da Silva",
+          "description": "",
+          "id": "CDAC",
+          "coordination": "CDNC",
+          "h_weekly": "4",
+          "h_total": "50",
+          "day": "Quarta",
+          "hour": "19:20-20:03"
+        },
+        {
+          "type": "COM",
+          "name": "Administração",
+          "teacher": "Valéria Melo Ferraz",
+          "description": "",
+          "id": "ADMINIS",
+          "coordination": "CDNC",
+          "h_weekly": "4",
+          "h_total": "50",
+          "day": "Segunda",
+          "hour": "17:30-18:20"
         }
       ]
     },
@@ -114,60 +162,76 @@
       "name": "3º Semestre",
       "disciplines": [
         {
-          "id": "ESP305",
           "type": "CCO",
-          "name": " Teoria Geral de Sistemas",
+          "name": "Linguagem de Programação 2",
+          "teacher": "Alexandro dos Santos Silva",
+          "description": "",
+          "id": "L-PROG-2",
+          "coordination": "COINFO",
+          "h_weekly": "4",
           "h_total": "30",
-          "h_weekly": "2",
-          "teacher": "Fernando Bulhões"
+          "day": "Sexta",
+          "hour": "19:20-20:02"
         },
         {
-          "id": "ADM301",
-          "type": "COM",
-          "name": " Organização, Sistemas e Métodos",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Thiago Chagas Silva Santos"
-        },
-        {
-          "id": "ESP303",
           "type": "CCO",
-          "name": " Linguagem de Programação II",
-          "h_total": "60",
+          "name": "Estruturas de Dados",
+          "teacher": "Cláudio Rodolfo Sousa de Oliveira",
+          "description": "",
+          "id": "EST-DAD",
+          "coordination": "CSI",
           "h_weekly": "4",
-          "teacher": "Fernanda Castelo Branco de Santana"
+          "h_total": "30",
+          "day": "Segunda",
+          "hour": "19:20-20:01"
         },
         {
-          "id": "ESP307",
           "type": "TEC",
-          "name": " Análise e Modelagem de Sistemas",
-          "h_total": "60",
+          "name": "SIstemas Operacionais",
+          "teacher": "Camilo Alves Carvalho",
+          "description": "",
+          "id": "SO",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Jose Dihego da Silva Oliveira"
+          "h_total": "30",
+          "day": "Quarta",
+          "hour": "19:20-20:03"
         },
         {
-          "id": "ESP304",
-          "type": "TEC",
-          "name": " Sistemas Operacionais",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Murilo Santos"
-        },
-        {
-          "id": "GRL301",
-          "type": "COM",
-          "name": " Inglês Instrumental I",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Marcelo dos Santos"
-        },
-        {
-          "id": "MAT306",
           "type": "MAT",
-          "name": " Álgebra Linear",
-          "h_total": "60",
+          "name": "Probabilidade e Estatística",
+          "teacher": "Carlos André Pereira de Jesus Silva",
+          "description": "",
+          "id": "PROB-EST",
+          "coordination": "CDNC",
           "h_weekly": "4",
-          "teacher": "Jailson de Araujo Rodrigues"
+          "h_total": "50",
+          "day": "Terça",
+          "hour": "19:20-20:04"
+        },
+        {
+          "type": "HUM",
+          "name": "Direito e Lesgislação em Informática",
+          "teacher": "Não Ofertado",
+          "description": "",
+          "id": "",
+          "coordination": "",
+          "h_weekly": "4",
+          "h_total": "50",
+          "day": "",
+          "hour": ""
+        },
+        {
+          "type": "COM",
+          "name": "Organização, Sistemas e Métodos",
+          "teacher": "Daniela Pereira Contelli",
+          "description": "",
+          "id": "OSM",
+          "coordination": "CDNC",
+          "h_weekly": "4",
+          "h_total": "50",
+          "day": "Quarta",
+          "hour": "20:20-21:10"
         }
       ]
     },
@@ -176,60 +240,76 @@
       "name": "4º Semestre",
       "disciplines": [
         {
-          "id": "CMP409",
           "type": "COM",
-          "name": " Seminários Temáticos",
-          "h_total": "30",
-          "h_weekly": "2",
-          "teacher": "Walace Rocha dos Santos"
+          "name": "Metodologia da Pesquisa Científica",
+          "teacher": "Viviane Maria Lélis Carvalho",
+          "description": "",
+          "id": "MPC",
+          "coordination": "COINFO",
+          "h_weekly": "4",
+          "h_total": "40",
+          "day": "Sexta",
+          "hour": "20:20-21:10"
         },
         {
-          "id": "ESP411",
           "type": "TEC",
-          "name": " Banco de Dados I",
-          "h_total": "60",
+          "name": "Análise e Modelagem de Sistemas 1",
+          "teacher": "Crijina Chagas Flores",
+          "description": "",
+          "id": "AMS-1",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Luiz Gomes Forte Neto"
+          "h_total": "40",
+          "day": "Segunda",
+          "hour": "19:20-20:07"
         },
         {
-          "id": "ESP412",
-          "type": "CCO",
-          "name": " Estrutura de Dados",
-          "h_total": "60",
+          "type": "TEC",
+          "name": "Banco de Dados 1",
+          "teacher": "Liojes de Oliveira Carneiro",
+          "description": "",
+          "id": "BD1",
+          "coordination": "CSI",
           "h_weekly": "4",
-          "teacher": "Jose Dihego da Silva Oliveira"
-        },
-        {
-          "id": "ESP413",
-          "type": "CCO",
-          "name": " Interface Homem",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Jamile Barreto Xavier"
-        },
-        {
-          "id": "ESP414",
-          "type": "CCO",
-          "name": " Redes de Computadores I",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Fernando Bulhões"
-        },
-        {
-          "id": "GRL404",
-          "type": "COM",
-          "name": " Inglês Instrumental II",
           "h_total": "30",
-          "h_weekly": "2",
-          "teacher": "Adelmo Xavier"
+          "day": "Terça",
+          "hour": "19:20-20:06"
         },
         {
-          "id": "MAT410",
-          "type": "MAT",
-          "name": " Probabilidade e Estatística",
-          "h_total": "60",
+          "type": "TEC",
+          "name": "Redes de Computadores 1",
+          "teacher": "Stênio Longo Araújo",
+          "description": "",
+          "id": "REDES1",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Jailson de Araujo Rodrigues"
+          "h_total": "30",
+          "day": "Sexta",
+          "hour": "19:20-20:08"
+        },
+        {
+          "type": "CCO",
+          "name": "Paradigmas de Linguagens de Programação",
+          "teacher": "Stênio Longo Araújo",
+          "description": "",
+          "id": "PLP",
+          "coordination": "COINFO",
+          "h_weekly": "4",
+          "h_total": "30",
+          "day": "Quinta",
+          "hour": "19:20-20:09"
+        },
+        {
+          "type": "COM",
+          "name": "Empreendedorismo",
+          "teacher": "Maria Das Graças Bittencourt Ferreira",
+          "description": "",
+          "id": "EMPRE",
+          "coordination": "CDNC",
+          "h_weekly": "4",
+          "h_total": "50",
+          "day": "Quarta",
+          "hour": "19:20-20:10"
         }
       ]
     },
@@ -238,52 +318,76 @@
       "name": "5º Semestre",
       "disciplines": [
         {
-          "id": "ESP515",
           "type": "TEC",
-          "name": " Banco de Dados II",
-          "h_total": "60",
+          "name": "Programação para Web",
+          "teacher": "Alexandro dos Santos Silva",
+          "description": "",
+          "id": "PROG-WEB",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Antônio Cordeiro"
+          "h_total": "30",
+          "day": "Quinta",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "ESP516",
           "type": "TEC",
-          "name": " Processo de Desenvolvimento de Software",
-          "h_total": "60",
+          "name": "Processo de Desenvolvimento de Software",
+          "teacher": "Crijina Chagas Flores",
+          "description": "",
+          "id": "PDS",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Raimundo Carvalho Rabelo Filho"
+          "h_total": "30",
+          "day": "Terça",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "ESP517",
           "type": "TEC",
-          "name": " Progamação Web",
-          "h_total": "60",
+          "name": "Banco de Dados II",
+          "teacher": "Pablo Freire Matos",
+          "description": "",
+          "id": "BD-2",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Raimundo Carvalho Rabelo Filho"
+          "h_total": "30",
+          "day": "Quarta",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "ESP518",
           "type": "TEC",
-          "name": " Rede de Computadores II",
-          "h_total": "60",
+          "name": "Projeto e Administração de Redes",
+          "teacher": "Igor Luiz Oliveira de Souza",
+          "description": "",
+          "id": "P-ADM-RED",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Luiz Gomes Forte Neto"
+          "h_total": "30",
+          "day": "Sexta",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "GRL519",
-          "type": "HUM",
-          "name": " Sociologia do Trabalho",
-          "h_total": "60",
+          "type": "CCO",
+          "name": "Complexidade de Algorítimos",
+          "teacher": "Viviyane Coelho Caires",
+          "description": "",
+          "id": "COMP-ALG",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Waneska Cunha dos Anjos"
+          "h_total": "30",
+          "day": "Segunda",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "01TCPA",
-          "type": "OPT",
-          "name": " TÓPICOS AV. I ",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Aletuza Gomes Leite e Daniele Santos de Souza"
+          "type": "COM",
+          "name": "Economia",
+          "teacher": "Não Ofertado",
+          "description": "",
+          "id": "",
+          "coordination": "",
+          "h_weekly": "",
+          "h_total": "",
+          "day": "",
+          "hour": ""
         }
       ]
     },
@@ -292,52 +396,76 @@
       "name": "6º Semestre",
       "disciplines": [
         {
-          "id": "ADM621",
+          "type": "CCO",
+          "name": "Inteligência Artificial",
+          "teacher": "Luis Paulo da Silva Carvalho",
+          "description": "",
+          "id": "IA",
+          "coordination": "CSI",
+          "h_weekly": "4",
+          "h_total": "30",
+          "day": "Segunda",
+          "hour": "19:20-20:10"
+        },
+        {
+          "type": "COM",
+          "name": "Contabilidade Geral e de Custos",
+          "teacher": "Não Ofertado",
+          "description": "",
+          "id": "",
+          "coordination": "",
+          "h_weekly": "",
+          "h_total": "",
+          "day": "",
+          "hour": ""
+        },
+        {
           "type": "TEC",
-          "name": " Gestão de Projetos",
-          "h_total": "60",
+          "name": "Engenharia de Software",
+          "teacher": "Crescêncio Rodrigues Lima Neto",
+          "description": "",
+          "id": "ES",
+          "coordination": "COINFO",
           "h_weekly": "4",
-          "teacher": "Thiago Chagas Silva Santos"
+          "h_total": "30",
+          "day": "Quinta",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "CMP603",
-          "type": "SUP",
-          "name": " TCC 1",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Fernando Bulhões"
-        },
-        {
-          "id": "ESP623",
           "type": "TEC",
-          "name": " Engenharia de Software",
-          "h_total": "60",
+          "name": "Segurança e Auditoria de Sistemas",
+          "teacher": "Stênio Longo Araújo",
+          "description": "",
+          "id": "SAS",
+          "coordination": "CSI",
           "h_weekly": "4",
-          "teacher": "Fernanda Castelo Branco de Santana"
+          "h_total": "30",
+          "day": "Terça",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "ESP625",
           "type": "TEC",
-          "name": " Sistemas distribuídos",
-          "h_total": "60",
+          "name": "Sistemas distribuídos",
+          "teacher": "Leonardo Barreto Campos",
+          "description": "",
+          "id": "SD",
+          "coordination": "CSI",
           "h_weekly": "4",
-          "teacher": "Antônio Cordeiro"
+          "h_total": "30",
+          "day": "Quarta",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "ESP626",
-          "type": "TEC",
-          "name": " Sistemas Embarcados",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Não definido"
-        },
-        {
-          "id": "O2TEC1",
           "type": "OPT",
-          "name": " OPT II ",
-          "h_total": "60",
+          "name": "Optativa A",
+          "teacher": "Luis Paulo da Silva Carvalho",
+          "description": "Programação para dispositivos móveis",
+          "id": "OPT-A",
+          "coordination": "CSI",
           "h_weekly": "4",
-          "teacher": "Antônio Cordeiro"
+          "h_total": "30",
+          "day": "Sexta",
+          "hour": "19:20-20:10"
         }
       ]
     },
@@ -346,52 +474,166 @@
       "name": "7º Semestre",
       "disciplines": [
         {
-          "id": "CMP702",
           "type": "TEC",
-          "name": " Qualidade de Software",
-          "h_total": "60",
+          "name": "Qualidade de Software",
+          "teacher": "Crescêncio Rodrigues Lima Neto",
+          "description": "",
+          "id": "QSOFT",
+          "coordination": "BSI",
           "h_weekly": "4",
-          "teacher": "Antônio Cordeiro"
+          "h_total": "30",
+          "day": "Sexta",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "CMP701",
           "type": "SUP",
-          "name": " TCC II",
-          "h_total": "60",
+          "name": "Trabalho de Conclusão de Curso 1",
+          "teacher": "Crijina Chagas Flores",
+          "description": "",
+          "id": "TCC-1",
+          "coordination": "BSI",
           "h_weekly": "4",
-          "teacher": "Vários teachers"
+          "h_total": "20",
+          "day": "Terça",
+          "hour": "17:30-18:20"
         },
         {
-          "id": "CMP70x",
-          "type": "HUM",
-          "name": " Meio Ambiente",
-          "h_total": "60",
-          "h_weekly": "4",
-          "teacher": "Não definido"
-        },
-        {
-          "id": "ESP704",
           "type": "TEC",
-          "name": " Desenvolvimento Mobile",
-          "h_total": "60",
+          "name": "Interface Homem Máquina",
+          "teacher": "Luis Paulo da Silva Carvalho",
+          "description": "",
+          "id": "IHM",
+          "coordination": "BSI",
           "h_weekly": "4",
-          "teacher": "Jose Dihego da Silva Oliveira"
+          "h_total": "30",
+          "day": "Quinta",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "ESP701",
+          "type": "SUP",
+          "name": "Estágio Supervisionado",
+          "teacher": "Marcela Alves Pereira",
+          "description": "",
+          "id": "ESTAGIO",
+          "coordination": "BSI",
+          "h_weekly": "4",
+          "h_total": "30",
+          "day": "Sexta",
+          "hour": "17:30-18:20"
+        },
+        {
           "type": "TEC",
-          "name": " Projetos e Gerência de Redes",
-          "h_total": "60",
+          "name": "Gestão de Projetos",
+          "teacher": "Amanda Ferraz de Oliveira Passos",
+          "description": "",
+          "id": "GPROJ",
+          "coordination": "BSI",
           "h_weekly": "4",
-          "teacher": "Fernando Bulhões"
+          "h_total": "30",
+          "day": "Segunda",
+          "hour": "19:20-20:10"
         },
         {
-          "id": "O2CMP1",
           "type": "OPT",
-          "name": " OPT III: Inovação e Difusão do",
-          "h_total": "60",
+          "name": "Optativa B",
+          "teacher": "Luis Paulo da Silva Carvalho",
+          "description": "Programação para dispositivos móveis",
+          "id": "OPT-B",
+          "coordination": "BSI",
           "h_weekly": "4",
-          "teacher": "Fábio Araujo Barreto e Fernanda Castelo Branco de Santana"
+          "h_total": "30",
+          "day": "Quarta",
+          "hour": "19:20-20:10"
+        },
+        {
+          "type": "TEC",
+          "name": "Gestão e Governança de TI",
+          "teacher": "Amanda Ferraz de Oliveira Passos",
+          "description": "",
+          "id": "GGOV",
+          "coordination": "BSI",
+          "h_weekly": "4",
+          "h_total": "30",
+          "day": "Terça",
+          "hour": "19:20-20:10"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "8º Semestre",
+      "disciplines": [
+        {
+          "type": "HUM",
+          "name": "Meio Ambiente",
+          "teacher": "Não Ofertado",
+          "description": "",
+          "id": "",
+          "coordination": "",
+          "h_weekly": "",
+          "h_total": "",
+          "day": "",
+          "hour": ""
+        },
+        {
+          "type": "SUP",
+          "name": "Trabalho de Conclusão de Curso 2",
+          "teacher": "Viviane Maria Lélis Carvalho",
+          "description": "",
+          "id": "TCC-2",
+          "coordination": "COINFO",
+          "h_weekly": "4",
+          "h_total": "15",
+          "day": "Quinta",
+          "hour": "19:20-20:10"
+        },
+        {
+          "type": "SUP",
+          "name": "Estágio Supervisionado",
+          "teacher": "Marcela Alves Pereira",
+          "description": "",
+          "id": "ESTAGIO",
+          "coordination": "COINFO",
+          "h_weekly": "4",
+          "h_total": "15",
+          "day": "Quinta",
+          "hour": "19:20-20:10"
+        },
+        {
+          "type": "TEC",
+          "name": "Sistemas de Apoio á decisão",
+          "teacher": "Não Ofertado",
+          "description": "",
+          "id": "",
+          "coordination": "",
+          "h_weekly": "",
+          "h_total": "",
+          "day": "",
+          "hour": ""
+        },
+        {
+          "type": "OPT",
+          "name": "Optativa C",
+          "teacher": "Luis Paulo da Silva Carvalho",
+          "description": "Programação para Dispositivos Móveis",
+          "id": "TGC",
+          "coordination": "COINFO",
+          "h_weekly": "4",
+          "h_total": "30",
+          "day": "Quarta",
+          "hour": "19:20-20:10"
+        },
+        {
+          "type": "OPT",
+          "name": "Optativa D",
+          "teacher": "Djan Almeida Santos",
+          "description": "Desenvolvimento de Jogos",
+          "id": "OPT G4",
+          "coordination": "BSI",
+          "h_weekly": "4",
+          "h_total": "30",
+          "day": "Terça",
+          "hour": "19:20-20:10"
         }
       ]
     }
