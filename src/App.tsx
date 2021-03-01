@@ -2,16 +2,18 @@ import React, { useState } from 'react';
 import Home from './pages/Home';
 import Styles from './Styles';
 import Header from '../src/components/molecules/Header';
+import ThemeProvider from './contexts/Theme/ThemeProvider';
 
-function App() {
-  const [dark,setdark] = useState<boolean>(true);
-  const handleTheme = () =>{ setdark(!dark); }
+const App: React.FC = () => {
+  const [isDark, setIsDark] = useState<boolean>(true);
+  const handleTheme = () => setIsDark(!isDark);
+
   return (
-    <>
-      <Styles dark={dark}/>
-      <Header onChange={handleTheme}/>
-      <Home/>
-    </>
+    <ThemeProvider value={{ isDark, handleTheme }}>
+      <Styles dark={isDark} />
+      <Header />
+      <Home />
+    </ThemeProvider>
   );
 };
 
