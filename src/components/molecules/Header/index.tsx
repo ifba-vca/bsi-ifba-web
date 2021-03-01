@@ -1,22 +1,15 @@
-
 import React from 'react';
-import {Container} from './styles';
 import LogoOne from '../../atoms/LogoOne';
 import Toogle from '../../atoms/Toogle';
+import { Container } from './styles';
 
-interface Props {
-  onChange?:any;
-}
-
-const Index: React.FC<Props> = props => {
-      return (
-        <>
-          <Container>
-            <LogoOne/>
-            <Toogle onChange={props.onChange}/>
-          </Container>
-        </>
-      );
-    }
+const Index: React.FC = () => {
+  return (
+    <Container>
+      <LogoOne />
+      <Toogle />
+    </Container>
+  );
+};
 
 export default Index;
