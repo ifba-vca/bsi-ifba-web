@@ -4,6 +4,7 @@
 
 [![site](https://img.shields.io/badge/official-site-blue)](https://bsi-site-frontend.herokuapp.com/) 
 [![backend](https://img.shields.io/badge/repository-backend-blue)](https://github.com/flaviofilipe/bsi-ifba-backend)
+[![toplanguage](https://img.shields.io/github/languages/top/flaviofilipe/bsi-ifba-web)](https://github.com/flaviofilipe/bsi-ifba-web/search?l=typescript)
 
 
 ![banner_mac](https://user-images.githubusercontent.com/13178261/109680157-002b2500-7b5b-11eb-8631-1527fd71370e.png)
