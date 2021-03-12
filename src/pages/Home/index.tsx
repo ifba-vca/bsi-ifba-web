@@ -8,9 +8,11 @@ import IfbaLogo from '../../components/atoms/IfbaLogo';
 import MatrixCourse from '../../components/molecules/MatrixCourse';
 import MatrixSubtitle from '../../components/atoms/MatrixSubtitle';
 import ListCardLink from '../../components/molecules/ListCardLink';
-import GSE from '../../util/png/gse.png';
 import curricularMatrix from '../../util/data/matriz.json';
 import {Course} from '../../interfaces/components/atoms'
+import dataEventos from '../../util/data/eventos.json';
+import dataProjetos from '../../util/data/projetos.json';
+import dataGrupos from '../../util/data/grupos_whatsapp.json';
 
 
 export interface Props {
@@ -24,30 +26,9 @@ interface Card {
 
 const matrix:Course = curricularMatrix;
 
-const projetos:Array<Card> = [
-  {
-    title: "GSE - Grupo de Software Educacional",
-    href: "http://gse.conquista.ifba.edu.br/softwares/",
-    icon: GSE
-  },
-  {
-    title: "Inq. Ifba - Inovação & Qualidade",
-    href: "https://inq.conquista.ifba.edu.br/v1/",
-    icon: "https://inq.conquista.ifba.edu.br/sistema/img/logo_full.png"
-  },
-  {
-    title: "Revista TI Hoje",
-    href: "https://www.youtube.com/c/RevistaTIHoje",
-    icon: "https://yt3.ggpht.com/ytc/AAUvwnhVhnTsAnudUGQlnMZM06GfxtdM_9Xj4jk8smo3=s88-c-k-c0x00ffffff-no-rj"
-  }
-]
-const eventos:Array<Card> = [
-  {
-    title: "Week IT - Semana da Tecnologia da Informação",
-    href: "http://weekit.conquista.ifba.edu.br/w19/",
-    icon: "http://weekit.conquista.ifba.edu.br/w19/wp-content/uploads/2019/10/cropped-logo-olho-branco-1.png"
-  }
-]
+const projetos:Array<Card> = dataProjetos
+const eventos:Array<Card> = dataEventos
+const grupos:Array<Card> = dataGrupos
 
 const Index: React.FC<Props> = (props) => {
       return (
@@ -80,6 +61,9 @@ const Index: React.FC<Props> = (props) => {
             </Section>
             <Section title="Eventos">
               <ListCardLink cards={eventos}/>
+            </Section>
+            <Section title="Whatsapp">
+              <ListCardLink cards={grupos}/>
             </Section>
             <Section title="Matriz Curricular">
               <MatrixCourse semesters={matrix.semesters} />
