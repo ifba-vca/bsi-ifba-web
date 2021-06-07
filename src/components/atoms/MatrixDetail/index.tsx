@@ -22,28 +22,20 @@ const Index: React.FC<Props> = props => {
     switch (discipline!.type){
       case 'CCO':
         return CCO
-      break
       case 'COM':
         return COM
-      break
       case 'HUM':
         return HUM
-      break
       case 'MAT':
         return MAT
-      break
       case 'OPT':
         return OPT
-      break
       case 'SUP':
         return SUP
-      break
       case 'TEC':
         return TEC
-      break
       default:
         return TEC
-      break
     }
   }
 

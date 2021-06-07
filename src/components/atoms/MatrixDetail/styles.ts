@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {_ubuh2,_ubuh3,_ubutextlittle} from '../../../Styles/generic/Typography';
+import {_ubuh2,_ubutextlittle} from '../../../Styles/generic/Typography';
 
 export const Container = styled.div`
   background-color: var(--si-background-02);

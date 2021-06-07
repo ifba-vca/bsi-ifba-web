@@ -45,28 +45,20 @@ export const Type = styled.h1<{color: any}>`
   switch (props.color) {
     case "CCO":
       return "var(--si-magenta-01)";
-      break;
     case "MAT":
       return "var(--si-yellow-01)";
-      break;
     case "COM":
       return "var(--si-mate-01)";
-      break;
     case "HUM":
       return "var(--si-orange-01)";
-      break;
     case "OPT":
       return "var(--si-pink-01)";
-      break;
     case "SUP":
       return "var(--si-blue-01)";
-      break;
     case "TEC":
       return "var(--si-blue-02)";
-      break;
     default:
       return "var(--si-blue-02)";
-      break;
   }
 }};
 `;
