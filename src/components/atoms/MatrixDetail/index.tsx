@@ -9,6 +9,7 @@ import OPT from '../../../util/jpg/OPT.jpg'
 import SUP from '../../../util/jpg/SUP.jpg'
 import TEC from '../../../util/jpg/TEC.jpg'
 
+
 interface Props {
   modalRef?: any | null;
   className?: any | null;
