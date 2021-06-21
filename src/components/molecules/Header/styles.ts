@@ -9,6 +9,24 @@ export const Container = styled.div`
     align-items:center;
     background-color: var(--si-background-02)
 `;
+
+export const DiscordInfo = styled.p`
+    text-align: center;
+    margin: 5px 0;
+
+    i{
+        margin-right: 10px;
+    }
+    a{
+        color: var(--si-light-01);
+        font-weight: bold;
+        :hover{
+            color: var(--si-yellow-01);
+            filter: brightness(1.5);
+        }
+    }
+`;
+
 export const Logo = styled.img`
     height: 30px;
 `;
