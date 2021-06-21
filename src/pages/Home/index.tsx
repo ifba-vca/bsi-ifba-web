@@ -3,6 +3,8 @@ import React from 'react';
 import Content from '../../components/molecules/Content';
 import Footer from '../../components/molecules/Footer';
 import BannerHome from '../../components/organisms/banners/BannerHome';
+import BannerDiscord from '../../components/organisms/banners/BannerDiscord';
+import BannerYoutube from '../../components/organisms/banners/BannerYoutube';
 import Section from '../../components/atoms/Section';
 import IfbaLogo from '../../components/atoms/IfbaLogo';
 import MatrixCourse from '../../components/molecules/MatrixCourse';
@@ -35,6 +37,12 @@ const Index: React.FC<Props> = (props) => {
         <>
           <Content>
             <BannerHome/>
+            <Section>
+              <BannerDiscord/>
+            </Section>
+            <Section>
+              <BannerYoutube/>
+            </Section>
             <Section title="Não é apenas programar...">
               <p>Seja criando um site, um aplicativo, cuidando de uma rede de internet, ou na sala de aula, estamos aqui para resolver problemas na área de Tecnologia da Informação. Analisamos dados, realizamos pesquisa de mercado, coletamos avaliações e validamos as melhores soluções para os usuários.</p>
               <p> No momento estamos construindo o conteúdo do nosso site mas você pode encontrar nosso calendário, matriz curricular e outras informações no portal oficial do IFBA - Vitória da Conquista.</p>
