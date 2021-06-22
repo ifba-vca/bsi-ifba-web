@@ -46,4 +46,9 @@ export const Button = styled.button`
     background-color: transparent;
     border: none;
     padding: 0;
+    margin-right: 10px;
+`;
+export const Logo = styled.img`
+    margin-left: 10px;
+    width: 30px;
 `;

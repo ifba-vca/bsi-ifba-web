@@ -1,9 +1,10 @@
 
 import React,{useState} from 'react';
-import {Container,Modal,Button,ButtonContainer} from './styles';
+import {Container,Modal,Button,ButtonContainer,Logo} from './styles';
 import LogoOne from '../../atoms/LogoOne';
 import Toogle from '../../atoms/Toogle';
 import Navigation from '../Navigation';
+import BsiLogo from '../../../util/png/logo.png';
 
 
 const Index: React.FC = props => {
@@ -23,7 +24,7 @@ const Index: React.FC = props => {
       return (
         <>
             <Container>
-                <LogoOne small/>
+                <Logo src={BsiLogo}/>
                 <Navigation mobile/>
                 <ButtonContainer>
                     <Modal className={options}>
