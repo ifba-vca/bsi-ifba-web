@@ -3,12 +3,16 @@ import React from 'react';
 import {Container,Logo,Title} from './styles';
 import BsiLogo from '../../../util/png/logo.png';
 
-const Index: React.FC = () => {
+interface Props{
+  small?: boolean | false;
+}
+
+const Index: React.FC<Props> = props => {
       return (
         <>
           <Container>
-            <Logo src={BsiLogo}/>
-            <Title>IFBA BSI</Title>
+            <Logo small={props.small} src={BsiLogo}/>
+            <Title small={props.small}>IFBA BSI</Title>
           </Container>
         </>
       );
