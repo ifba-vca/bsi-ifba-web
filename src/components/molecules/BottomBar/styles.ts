@@ -50,5 +50,5 @@ export const Button = styled.button`
 `;
 export const Logo = styled.img`
     margin-left: 10px;
-    width: 30px;
+    width: 40px;
 `;
