@@ -1,7 +1,6 @@
 
 import React,{useState} from 'react';
 import {Container,Modal,Button,ButtonContainer,Logo} from './styles';
-import LogoOne from '../../atoms/LogoOne';
 import Toogle from '../../atoms/Toogle';
 import Navigation from '../Navigation';
 import BsiLogo from '../../../util/png/logo.png';
