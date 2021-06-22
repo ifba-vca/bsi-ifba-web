@@ -1,7 +1,6 @@
 
 import React from 'react';
 import Content from '../../components/molecules/Content';
-import Footer from '../../components/molecules/Footer';
 import Page from '../../components/organisms/Page';
 import BannerHome from '../../components/organisms/banners/BannerHome';
 import BannerDiscord from '../../components/organisms/banners/BannerDiscord';
@@ -69,7 +68,6 @@ const Index: React.FC<Props> = (props) => {
               <ListCardLink cards={grupos}/>
             </Section>
           </Content>
-          <Footer/>
         </Page>
       );
     }

@@ -1,0 +1,12 @@
+[
+    {
+        "name":"Home",
+        "icon":"fa fa-home",
+        "link":"/"
+    },
+    {
+        "name":"Matriz Curricular",
+        "icon":"fa fa-columns",
+        "link":"/matriz_curricular"
+    }
+]

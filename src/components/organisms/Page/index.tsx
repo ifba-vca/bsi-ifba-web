@@ -2,6 +2,8 @@
 import React from 'react';
 import {Container} from './styles';
 import Header from '../../molecules/Header';
+import Footer from '../../molecules/Footer';
+import BottomBar from '../../molecules/BottomBar';
 
 
 const Index: React.FC = props => {
@@ -11,6 +13,8 @@ const Index: React.FC = props => {
             <Container>
                 {props.children}
             </Container>
+            <Footer/>
+            <BottomBar/>
         </>
       );
     }
