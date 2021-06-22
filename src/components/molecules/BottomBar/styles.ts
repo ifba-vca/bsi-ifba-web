@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { mobile } from "../../../Styles/generic/Breakpoints";
-import {Link} from 'react-router-dom';
 
 export const Modal = styled.div`
     width: 100px;
