@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import Home from './pages/Home';
+import Routes from './Routes';
 import Styles from './Styles';
-import Header from '../src/components/molecules/Header';
 import ThemeProvider from './contexts/Theme/ThemeProvider';
 
 const App: React.FC = () => {
@@ -11,8 +10,7 @@ const App: React.FC = () => {
   return (
     <ThemeProvider value={{ isDark, handleTheme }}>
       <Styles dark={isDark} />
-      <Header />
-      <Home />
+      <Routes/>
     </ThemeProvider>
   );
 };

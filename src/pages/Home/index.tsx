@@ -2,16 +2,13 @@
 import React from 'react';
 import Content from '../../components/molecules/Content';
 import Footer from '../../components/molecules/Footer';
+import Page from '../../components/organisms/Page';
 import BannerHome from '../../components/organisms/banners/BannerHome';
 import BannerDiscord from '../../components/organisms/banners/BannerDiscord';
 import BannerYoutube from '../../components/organisms/banners/BannerYoutube';
 import Section from '../../components/atoms/Section';
 import IfbaLogo from '../../components/atoms/IfbaLogo';
-import MatrixCourse from '../../components/molecules/MatrixCourse';
-import MatrixSubtitle from '../../components/atoms/MatrixSubtitle';
 import ListCardLink from '../../components/molecules/ListCardLink';
-import curricularMatrix from '../../util/data/matriz.json';
-import {Course} from '../../interfaces/components/atoms'
 import dataEventos from '../../util/data/eventos.json';
 import dataProjetos from '../../util/data/projetos.json';
 import dataGrupos from '../../util/data/grupos_whatsapp.json';
@@ -26,15 +23,13 @@ interface Card {
   href?: string | null;
 }
 
-const matrix:Course = curricularMatrix;
-
 const projetos:Array<Card> = dataProjetos
 const eventos:Array<Card> = dataEventos
 const grupos:Array<Card> = dataGrupos
 
 const Index: React.FC<Props> = (props) => {
       return (
-        <>
+        <Page>
           <Content>
             <BannerHome/>
             <Section>
@@ -73,13 +68,9 @@ const Index: React.FC<Props> = (props) => {
             <Section title="Whatsapp">
               <ListCardLink cards={grupos}/>
             </Section>
-            <Section title="Matriz Curricular">
-              <MatrixCourse semesters={matrix.semesters} />
-              <MatrixSubtitle/>
-            </Section>
           </Content>
           <Footer/>
-        </>
+        </Page>
       );
     }
 
