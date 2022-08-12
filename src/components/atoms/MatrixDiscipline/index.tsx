@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import {Container,Requirements,Header,Footer,Name,Type,Ch} from './styles';
+import {Container,Requirements,Extra,Header,Footer,Name,Type,Ch} from './styles';
 import {Discipline} from '../../../interfaces/components/atoms';
 import MatrixDetail from '../MatrixDetail'
 
@@ -42,8 +42,9 @@ const Index: React.FC<Props> = (props) => {
 
   return (
     <>
-      <Container onClick={showModal}>
+      <Container yellow={discipline.requirement != null}>
         {discipline.requirement && (<Requirements>Requisitos</Requirements>) }
+        <Extra onClick={showModal}>
         <Header>
           <Name>{discipline.name}</Name>
         </Header>
@@ -51,6 +52,7 @@ const Index: React.FC<Props> = (props) => {
           <Type color={discipline.type}>{discipline.type}</Type>
           <Ch>{discipline.h_total}</Ch>
         </Footer>
+        </Extra>
       </Container>
       <MatrixDetail className={modal} discipline={discipline} close={reallycloseModal} modalRef={modalRef}/>
     </>

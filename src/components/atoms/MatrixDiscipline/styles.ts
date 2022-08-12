@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { _ubutextlittle,_ubutexttiny } from '../../../Styles/generic/Typography';
 
-export const Container = styled.a`
+export const Container = styled.a<{ yellow: any }>`
   cursor: pointer;
     display: flex;
     align-items: center;
@@ -16,11 +16,11 @@ export const Container = styled.a`
   margin: 5px;
 
   :hover{
-    box-shadow: 0px 0px 10px  var(--si-text);
+    box-shadow:${(props) => props.yellow ? "0px 0px 10px  var(--si-background-04)" : "0px 0px 10px  var(--si-text)"};
   }
 `;
 
-export const Requirements = styled.div`
+export const Requirements = styled.span`
   ${_ubutexttiny};
   display: flex;
   align-items: center;
@@ -30,12 +30,19 @@ export const Requirements = styled.div`
   background-color: var(--si-background-04);
 
 `;
+export const Extra = styled.div`
+  span ~ & span {
+    height: 50px;
+  }
+  span {
+    height: 80px;
+  }
+`;
 
-export const Header = styled.div`
+export const Header = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
   padding: 5px;
 `;
 export const Footer = styled.div`
