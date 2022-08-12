@@ -10,7 +10,7 @@
           "name": "Algoritmos e Programação",
           "teacher": "Liojes de Oliveira Carneiro",
           "description": "",
-          "id": "ALG-PROG",
+          "id": "CCO01",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "36",
@@ -22,7 +22,7 @@
           "name": "Leitura e produção de gêneros Academicos",
           "teacher": "Polliana Freire dos Anjos Oliveira",
           "description": "",
-          "id": "LPGA",
+          "id": "COM02",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
@@ -34,7 +34,7 @@
           "name": "Fundamentos de Sistema de Informação",
           "teacher": "Viviyane Coelho Caires",
           "description": "",
-          "id": "FUND-SI",
+          "id": "CCO03",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "40",
@@ -46,7 +46,7 @@
           "name": "Matemática Discreta 1",
           "teacher": "Allan de Sousa Soares",
           "description": "",
-          "id": "MAT DISC 1",
+          "id": "MAT04",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
@@ -58,7 +58,7 @@
           "name": "Introdução à Ciência da Computação",
           "teacher": "Viviyane Coelho Caires",
           "description": "",
-          "id": "INTRO-CC",
+          "id": "CCO05",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "40",
@@ -70,7 +70,7 @@
           "name": "Inglês Instrumental",
           "teacher": "Polliana Freire dos Anjos Oliveira",
           "description": "",
-          "id": "INGL INST",
+          "id": "COM06",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
@@ -88,19 +88,20 @@
           "name": "Linguagem de Programação 1",
           "teacher": "Crescêncio Rodrigues Lima Neto",
           "description": "",
-          "id": "LINGPRO1",
+          "id": "CCO07",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "40",
           "day": "Segunda",
-          "hour": "19:20-20:03"
+          "hour": "19:20-20:03",
+          "requirement":"CCO01"
         },
         {
           "type": "CCO",
           "name": "Arquitetura e Organização de Computadores",
           "teacher": "Leonardo Barreto Campos",
           "description": "",
-          "id": "ARQORG",
+          "id": "CCO8",
           "coordination": "CSI",
           "h_weekly": "4",
           "h_total": "40",
@@ -112,7 +113,7 @@
           "name": "Computador, Ética e Sociedade",
           "teacher": "Eliana Barretto de Menezes Lopes",
           "description": "",
-          "id": "COMP.ET.SOC.",
+          "id": "COM09",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
@@ -124,31 +125,33 @@
           "name": "Matemática Discreta 2",
           "teacher": "Allan de Sousa Soares",
           "description": "",
-          "id": "MAT.DISC.2",
+          "id": "COM10",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
           "day": "Quinta",
-          "hour": "20:20-21:10"
+          "hour": "20:20-21:10",
+          "requirement":"MAT04"
         },
         {
           "type": "MAT",
           "name": "Calculo Diferencial Aplicado a Computação",
           "teacher": "Thiago Leonardo Bastos da Silva",
           "description": "",
-          "id": "CDAC",
+          "id": "MAT11",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
           "day": "Quarta",
-          "hour": "19:20-20:03"
+          "hour": "19:20-20:03",
+          "requirement":"MAT04"
         },
         {
           "type": "COM",
           "name": "Administração",
           "teacher": "Valéria Melo Ferraz",
           "description": "",
-          "id": "ADMINIS",
+          "id": "COM12",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
@@ -166,43 +169,46 @@
           "name": "Linguagem de Programação 2",
           "teacher": "Alexandro dos Santos Silva",
           "description": "",
-          "id": "L-PROG-2",
+          "id": "CCO13",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Sexta",
-          "hour": "19:20-20:02"
+          "hour": "19:20-20:02",
+          "requirement":"CCO07"
         },
         {
           "type": "CCO",
           "name": "Estruturas de Dados",
           "teacher": "Cláudio Rodolfo Sousa de Oliveira",
           "description": "",
-          "id": "EST-DAD",
+          "id": "CCO14",
           "coordination": "CSI",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Segunda",
-          "hour": "19:20-20:01"
+          "hour": "19:20-20:01",
+          "requirement":"CCO07"
         },
         {
           "type": "TEC",
           "name": "SIstemas Operacionais",
           "teacher": "Camilo Alves Carvalho",
           "description": "",
-          "id": "SO",
+          "id": "TEC15",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Quarta",
-          "hour": "19:20-20:03"
+          "hour": "19:20-20:03",
+          "requirement":"CCO8"
         },
         {
           "type": "MAT",
           "name": "Probabilidade e Estatística",
           "teacher": "Carlos André Pereira de Jesus Silva",
           "description": "",
-          "id": "PROB-EST",
+          "id": "MAT16",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
@@ -214,7 +220,7 @@
           "name": "Direito e Lesgislação em Informática",
           "teacher": "Não Ofertado",
           "description": "",
-          "id": "",
+          "id": "HUM17",
           "coordination": "",
           "h_weekly": "4",
           "h_total": "50",
@@ -226,7 +232,7 @@
           "name": "Organização, Sistemas e Métodos",
           "teacher": "Daniela Pereira Contelli",
           "description": "",
-          "id": "OSM",
+          "id": "COM18",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
@@ -244,7 +250,7 @@
           "name": "Metodologia da Pesquisa Científica",
           "teacher": "Viviane Maria Lélis Carvalho",
           "description": "",
-          "id": "MPC",
+          "id": "COM19",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "40",
@@ -256,55 +262,59 @@
           "name": "Análise e Modelagem de Sistemas 1",
           "teacher": "Crijina Chagas Flores",
           "description": "",
-          "id": "AMS-1",
+          "id": "TEC20",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "40",
           "day": "Segunda",
-          "hour": "19:20-20:07"
+          "hour": "19:20-20:07",
+          "requirement":"CCO13"
         },
         {
           "type": "TEC",
           "name": "Banco de Dados 1",
           "teacher": "Liojes de Oliveira Carneiro",
           "description": "",
-          "id": "BD1",
+          "id": "TEC21",
           "coordination": "CSI",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Terça",
-          "hour": "19:20-20:06"
+          "hour": "19:20-20:06",
+          "requirement":"CCO07"
         },
         {
           "type": "TEC",
           "name": "Redes de Computadores 1",
           "teacher": "Stênio Longo Araújo",
           "description": "",
-          "id": "REDES1",
+          "id": "TEC22",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Sexta",
-          "hour": "19:20-20:08"
+          "hour": "19:20-20:08",
+          "requirement":"TEC15"
         },
         {
           "type": "CCO",
           "name": "Paradigmas de Linguagens de Programação",
           "teacher": "Stênio Longo Araújo",
           "description": "",
-          "id": "PLP",
+          "id": "CCO23",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Quinta",
-          "hour": "19:20-20:09"
+          "hour": "19:20-20:09",
+          "requirement":"CCO13"
         },
         {
           "type": "COM",
           "name": "Empreendedorismo",
           "teacher": "Maria Das Graças Bittencourt Ferreira",
           "description": "",
-          "id": "EMPRE",
+          "id": "COM24",
           "coordination": "CDNC",
           "h_weekly": "4",
           "h_total": "50",
@@ -388,7 +398,7 @@
           "h_total": "",
           "day": "",
           "hour": "",
-          "required_for": "abba/dabe"
+          "required_for": ""
         }
       ]
     },
@@ -431,7 +441,7 @@
           "h_total": "30",
           "day": "Quinta",
           "hour": "19:20-20:10",
-          "requirement":"abba"
+          "requirement":""
         },
         {
           "type": "TEC",
@@ -498,7 +508,7 @@
           "h_total": "20",
           "day": "Terça",
           "hour": "17:30-18:20",
-          "requirement": "zizi"
+          "requirement": ""
         },
         {
           "type": "TEC",
@@ -511,7 +521,7 @@
           "h_total": "30",
           "day": "Quinta",
           "hour": "19:20-20:10",
-          "requirement": "dabi"
+          "requirement": ""
         },
         {
           "type": "SUP",
@@ -524,7 +534,7 @@
           "h_total": "30",
           "day": "Sexta",
           "hour": "17:30-18:20",
-          "required_for": "dabi"
+          "required_for": ""
         },
         {
           "type": "TEC",
@@ -537,7 +547,7 @@
           "h_total": "30",
           "day": "Segunda",
           "hour": "19:20-20:10",
-          "required_for": "zizi"
+          "required_for": ""
         },
         {
           "type": "OPT",

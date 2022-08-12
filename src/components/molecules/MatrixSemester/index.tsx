@@ -22,7 +22,7 @@ const Index: React.FC<Semester> = props => {
           <MatrixDiscipline
             discipline = {item}
             onChangeValue = {updateValue}
-            isRequiredCall = {props.requirement === item.required_for}
+            isRequiredCall = {props.requirement === item.id}
           />
         )) : (<div></div>)}
       </Container>
