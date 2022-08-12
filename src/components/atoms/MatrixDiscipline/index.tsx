@@ -5,6 +5,7 @@ import MatrixDetail from '../MatrixDetail'
 
 interface Props {
   discipline: Discipline;
+  onChangeValue: any;
 }
 
 const Index: React.FC<Props> = (props) => {
@@ -12,8 +13,6 @@ const Index: React.FC<Props> = (props) => {
   const modalRef = useRef(null)
 
   const {discipline} = props
-
-  const showRequirements = () => {console.log(discipline.requirement)}
 
   const showModal = () => {
     setmodal("show")
@@ -45,7 +44,7 @@ const Index: React.FC<Props> = (props) => {
   return (
     <>
       <Container yellow={discipline.requirement != null}>
-        {discipline.requirement && (<Requirements onClick={showRequirements}>Requisitos</Requirements>) }
+        {discipline.requirement && (<Requirements onClick={props.onChangeValue(props.discipline.requirement)}>Requisitos</Requirements>) }
         <Extra onClick={showModal}>
         <Header>
           <Name>{discipline.name}</Name>
