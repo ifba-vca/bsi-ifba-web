@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import {Container,Header,Footer,Name,Type,Ch} from './styles';
+import {Container,Requirements,Header,Footer,Name,Type,Ch} from './styles';
 import {Discipline} from '../../../interfaces/components/atoms';
 import MatrixDetail from '../MatrixDetail'
 
@@ -43,6 +43,7 @@ const Index: React.FC<Props> = (props) => {
   return (
     <>
       <Container onClick={showModal}>
+        <Requirements>Requisitos</Requirements>
         <Header>
           <Name>{discipline.name}</Name>
         </Header>

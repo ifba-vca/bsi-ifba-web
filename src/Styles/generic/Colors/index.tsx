@@ -10,15 +10,19 @@ const Colors = createGlobalStyle`
 
       --si-blue: #0075FF;
 
+      --si-dark-03: #1A1D25;
       --si-dark-02: #1F232C;
       --si-dark-01: #282C34;
 
+      --si-light-04: #B2B2B2;
       --si-light-03: #C4C4C4;
       --si-light-02: #E5E5E5;
       --si-light-01: #FFFFFF;
 
       --si-magenta-01: #FA484F;
       --si-yellow-01: #D4A80C;
+      --si-yellow-02: #DBAC04;
+      --si-yellow-03: #907514;
       --si-mate-01: #39B200;
       --si-orange-01: #FF8A00;
       --si-pink-01: #FA48BD;
