@@ -8,6 +8,7 @@ export interface Discipline {
   teacher?: String | null;
   description?: String | null;
   requirement?: String | null;
+  required_for?: String | null;
 }
 export interface Semester {
   id?: String | null;

@@ -6,13 +6,20 @@ import MatrixDetail from '../MatrixDetail'
 interface Props {
   discipline: Discipline;
   onChangeValue: any;
+  isRequiredCall: boolean;
 }
 
 const Index: React.FC<Props> = (props) => {
   const [modal, setmodal] = useState("");
+  const [required, setrequired] = useState<boolean>(false);
   const modalRef = useRef(null)
 
-  const {discipline} = props
+  const {discipline,isRequiredCall} = props
+
+  const showRequired = () => {
+    props.onChangeValue(discipline.requirement)
+    setrequired(isRequiredCall)
+  }
 
   const showModal = () => {
     setmodal("show")
@@ -43,8 +50,8 @@ const Index: React.FC<Props> = (props) => {
 
   return (
     <>
-      <Container yellow={discipline.requirement != null}>
-        {discipline.requirement && (<Requirements onClick={props.onChangeValue(props.discipline.requirement)}>Requisitos</Requirements>) }
+      <Container yellow={discipline.requirement != null} isrequiredcall={isRequiredCall}>
+        {discipline.requirement && (<Requirements onClick={showRequired}>Requisitos</Requirements>) }
         <Extra onClick={showModal}>
         <Header>
           <Name>{discipline.name}</Name>

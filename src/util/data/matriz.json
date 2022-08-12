@@ -497,7 +497,8 @@
           "h_weekly": "4",
           "h_total": "20",
           "day": "Terça",
-          "hour": "17:30-18:20"
+          "hour": "17:30-18:20",
+          "requirement": "zizi"
         },
         {
           "type": "TEC",
@@ -510,7 +511,7 @@
           "h_total": "30",
           "day": "Quinta",
           "hour": "19:20-20:10",
-          "requirement": "dabe"
+          "requirement": "dabi"
         },
         {
           "type": "SUP",
@@ -522,7 +523,8 @@
           "h_weekly": "4",
           "h_total": "30",
           "day": "Sexta",
-          "hour": "17:30-18:20"
+          "hour": "17:30-18:20",
+          "required_for": "dabi"
         },
         {
           "type": "TEC",
@@ -534,7 +536,8 @@
           "h_weekly": "4",
           "h_total": "30",
           "day": "Segunda",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "required_for": "zizi"
         },
         {
           "type": "OPT",
