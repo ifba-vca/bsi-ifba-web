@@ -43,7 +43,7 @@ const Index: React.FC<Props> = (props) => {
   return (
     <>
       <Container onClick={showModal}>
-        <Requirements>Requisitos</Requirements>
+        {discipline.requirement && (<Requirements>Requisitos</Requirements>) }
         <Header>
           <Name>{discipline.name}</Name>
         </Header>

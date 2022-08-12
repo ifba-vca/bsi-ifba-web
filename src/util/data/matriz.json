@@ -387,7 +387,8 @@
           "h_weekly": "",
           "h_total": "",
           "day": "",
-          "hour": ""
+          "hour": "",
+          "required_for": "abba/dabe"
         }
       ]
     },
@@ -429,7 +430,8 @@
           "h_weekly": "4",
           "h_total": "30",
           "day": "Quinta",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"abba"
         },
         {
           "type": "TEC",
@@ -507,7 +509,8 @@
           "h_weekly": "4",
           "h_total": "30",
           "day": "Quinta",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement": "dabe"
         },
         {
           "type": "SUP",
