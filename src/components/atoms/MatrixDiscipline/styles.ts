@@ -35,7 +35,7 @@ export const Extra = styled.div`
     height: 50px;
   }
   span {
-    height: 80px;
+    height: 70px;
   }
 `;
 

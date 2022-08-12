@@ -13,6 +13,8 @@ const Index: React.FC<Props> = (props) => {
 
   const {discipline} = props
 
+  const showRequirements = () => {console.log(discipline.requirement)}
+
   const showModal = () => {
     setmodal("show")
     document.querySelectorAll('a').forEach((input) => {
@@ -43,7 +45,7 @@ const Index: React.FC<Props> = (props) => {
   return (
     <>
       <Container yellow={discipline.requirement != null}>
-        {discipline.requirement && (<Requirements>Requisitos</Requirements>) }
+        {discipline.requirement && (<Requirements onClick={showRequirements}>Requisitos</Requirements>) }
         <Extra onClick={showModal}>
         <Header>
           <Name>{discipline.name}</Name>
