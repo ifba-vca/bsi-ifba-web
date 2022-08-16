@@ -332,73 +332,77 @@
           "name": "Programação para Web",
           "teacher": "Alexandro dos Santos Silva",
           "description": "",
-          "id": "PROG-WEB",
+          "id": "CCO25",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Quinta",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"CCO13/TEC21"
         },
         {
           "type": "TEC",
           "name": "Processo de Desenvolvimento de Software",
           "teacher": "Crijina Chagas Flores",
           "description": "",
-          "id": "PDS",
+          "id": "TEC26",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Terça",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":": TEC20"
         },
         {
           "type": "TEC",
           "name": "Banco de Dados II",
           "teacher": "Pablo Freire Matos",
           "description": "",
-          "id": "BD-2",
+          "id": "TEC27",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Quarta",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":": CCO13/TEC21"
         },
         {
           "type": "TEC",
           "name": "Projeto e Administração de Redes",
           "teacher": "Igor Luiz Oliveira de Souza",
           "description": "",
-          "id": "P-ADM-RED",
+          "id": "TEC28",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Sexta",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"TEC22"
         },
         {
           "type": "CCO",
           "name": "Complexidade de Algorítimos",
           "teacher": "Viviyane Coelho Caires",
           "description": "",
-          "id": "COMP-ALG",
+          "id": "CCO29",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Segunda",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"MAT11/CCO14"
         },
         {
           "type": "COM",
           "name": "Economia",
           "teacher": "Não Ofertado",
           "description": "",
-          "id": "",
+          "id": "COM30",
           "coordination": "",
           "h_weekly": "",
           "h_total": "",
           "day": "",
-          "hour": "",
-          "required_for": ""
+          "hour": ""
         }
       ]
     },
@@ -411,19 +415,20 @@
           "name": "Inteligência Artificial",
           "teacher": "Luis Paulo da Silva Carvalho",
           "description": "",
-          "id": "IA",
+          "id": "TEC31",
           "coordination": "CSI",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Segunda",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"MAT10"
         },
         {
           "type": "COM",
           "name": "Contabilidade Geral e de Custos",
           "teacher": "Não Ofertado",
           "description": "",
-          "id": "",
+          "id": "COM32",
           "coordination": "",
           "h_weekly": "",
           "h_total": "",
@@ -435,37 +440,39 @@
           "name": "Engenharia de Software",
           "teacher": "Crescêncio Rodrigues Lima Neto",
           "description": "",
-          "id": "ES",
+          "id": "TEC33",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Quinta",
           "hour": "19:20-20:10",
-          "requirement":""
+          "requirement":"TEC26"
         },
         {
           "type": "TEC",
           "name": "Segurança e Auditoria de Sistemas",
           "teacher": "Stênio Longo Araújo",
           "description": "",
-          "id": "SAS",
+          "id": "TEC34",
           "coordination": "CSI",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Terça",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"TEC22/TEC27"
         },
         {
           "type": "TEC",
           "name": "Sistemas distribuídos",
           "teacher": "Leonardo Barreto Campos",
           "description": "",
-          "id": "SD",
+          "id": "TEC35",
           "coordination": "CSI",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Quarta",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"TEC22"
         },
         {
           "type": "OPT",
@@ -490,45 +497,45 @@
           "name": "Qualidade de Software",
           "teacher": "Crescêncio Rodrigues Lima Neto",
           "description": "",
-          "id": "QSOFT",
+          "id": "TEC37",
           "coordination": "BSI",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Sexta",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"TEC33"
         },
         {
           "type": "SUP",
           "name": "Trabalho de Conclusão de Curso 1",
           "teacher": "Crijina Chagas Flores",
           "description": "",
-          "id": "TCC-1",
+          "id": "SUP38",
           "coordination": "BSI",
           "h_weekly": "4",
           "h_total": "20",
           "day": "Terça",
-          "hour": "17:30-18:20",
-          "requirement": ""
+          "hour": "17:30-18:20"
         },
         {
           "type": "TEC",
           "name": "Interface Homem Máquina",
           "teacher": "Luis Paulo da Silva Carvalho",
           "description": "",
-          "id": "IHM",
+          "id": "TEC39",
           "coordination": "BSI",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Quinta",
           "hour": "19:20-20:10",
-          "requirement": ""
+          "requirement": "TEC33"
         },
         {
           "type": "SUP",
           "name": "Estágio Supervisionado",
           "teacher": "Marcela Alves Pereira",
           "description": "",
-          "id": "ESTAGIO",
+          "id": "SUP40",
           "coordination": "BSI",
           "h_weekly": "4",
           "h_total": "30",
@@ -541,13 +548,13 @@
           "name": "Gestão de Projetos",
           "teacher": "Amanda Ferraz de Oliveira Passos",
           "description": "",
-          "id": "GPROJ",
+          "id": "TEC41",
           "coordination": "BSI",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Segunda",
           "hour": "19:20-20:10",
-          "required_for": ""
+          "required_for": "TEC33"
         },
         {
           "type": "OPT",
@@ -566,12 +573,13 @@
           "name": "Gestão e Governança de TI",
           "teacher": "Amanda Ferraz de Oliveira Passos",
           "description": "",
-          "id": "GGOV",
+          "id": "TEC43",
           "coordination": "BSI",
           "h_weekly": "4",
           "h_total": "30",
           "day": "Terça",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"CCO03/COM18"
         }
       ]
     },
@@ -584,7 +592,7 @@
           "name": "Meio Ambiente",
           "teacher": "Não Ofertado",
           "description": "",
-          "id": "",
+          "id": "HUM44",
           "coordination": "",
           "h_weekly": "",
           "h_total": "",
@@ -596,12 +604,13 @@
           "name": "Trabalho de Conclusão de Curso 2",
           "teacher": "Viviane Maria Lélis Carvalho",
           "description": "",
-          "id": "TCC-2",
+          "id": "SUP45",
           "coordination": "COINFO",
           "h_weekly": "4",
           "h_total": "15",
           "day": "Quinta",
-          "hour": "19:20-20:10"
+          "hour": "19:20-20:10",
+          "requirement":"SUP38"
         },
         {
           "type": "SUP",
@@ -620,12 +629,13 @@
           "name": "Sistemas de Apoio á decisão",
           "teacher": "Não Ofertado",
           "description": "",
-          "id": "",
+          "id": "TEC46",
           "coordination": "",
           "h_weekly": "",
           "h_total": "",
           "day": "",
-          "hour": ""
+          "hour": "",
+          "requirement":"CCO03"
         },
         {
           "type": "OPT",
