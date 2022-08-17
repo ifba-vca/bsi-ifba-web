@@ -16,7 +16,7 @@ const Index: React.FC = props => {
           <Content>
             Acesse o nosso canal no discord agora mesmo no link abaixo:
           </Content>
-          <Link href="https://discord.gg/yCGUYTmV" target="_blank" rel="noreferrer">
+          <Link href="https://discord.gg/TKnUFe62RG" target="_blank" rel="noreferrer">
             Clique aqui
           </Link>
         </SubContainer>
