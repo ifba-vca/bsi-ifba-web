@@ -5,6 +5,7 @@ const Base = createGlobalStyle`
     --si-background-01: var(--si-light-02);
     --si-background-02: var(--si-light-03);
     --si-background-03: var(--si-light-02);
+    --si-background-04: var(--si-yellow-02);
     --si-text: var(--si-dark-01);
     --si-link: var(--si-blue);
   }

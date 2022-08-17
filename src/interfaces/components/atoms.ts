@@ -7,11 +7,15 @@ export interface Discipline {
   h_weekly?: String | null;
   teacher?: String | null;
   description?: String | null;
+  requirement?: String | null;
+  required_for?: String | null;
 }
 export interface Semester {
   id?: String | null;
   name?: String | null;
   disciplines?:Array<Discipline> | null;
+  requirement?: String;
+  onUpdateRequired?: any;
 }
 export interface Course {
   name?: String | null;

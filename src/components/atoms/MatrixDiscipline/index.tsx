@@ -1,17 +1,25 @@
 import React, { useState, useRef } from 'react';
-import {Container,Header,Footer,Name,Type,Ch} from './styles';
+import {Container,Requirements,Extra,Header,Footer,Name,Type,Ch} from './styles';
 import {Discipline} from '../../../interfaces/components/atoms';
 import MatrixDetail from '../MatrixDetail'
 
 interface Props {
   discipline: Discipline;
+  onChangeValue: any;
+  isRequiredCall: boolean;
 }
 
 const Index: React.FC<Props> = (props) => {
   const [modal, setmodal] = useState("");
+  const [required, setrequired] = useState<boolean>(false);
   const modalRef = useRef(null)
 
-  const {discipline} = props
+  const {discipline,isRequiredCall} = props
+
+  const showRequired = () => {
+    props.onChangeValue(discipline.requirement)
+    setrequired(isRequiredCall)
+  }
 
   const showModal = () => {
     setmodal("show")
@@ -42,7 +50,9 @@ const Index: React.FC<Props> = (props) => {
 
   return (
     <>
-      <Container onClick={showModal}>
+      <Container yellow={discipline.requirement != null} isrequiredcall={isRequiredCall}>
+        {discipline.requirement && (<Requirements onClick={showRequired}>Requisitos</Requirements>) }
+        <Extra onClick={showModal}>
         <Header>
           <Name>{discipline.name}</Name>
         </Header>
@@ -50,6 +60,7 @@ const Index: React.FC<Props> = (props) => {
           <Type color={discipline.type}>{discipline.type}</Type>
           <Ch>{discipline.h_total}</Ch>
         </Footer>
+        </Extra>
       </Container>
       <MatrixDetail className={modal} discipline={discipline} close={reallycloseModal} modalRef={modalRef}/>
     </>
